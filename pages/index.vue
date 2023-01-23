@@ -279,7 +279,7 @@
             <div class="px-6">
               <img
                 alt="..."
-                src="images/team-1-800x800.jpg"
+                src="/images/team-1-800x800.jpg"
                 class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px"
               />
@@ -313,7 +313,7 @@
             <div class="px-6">
               <img
                 alt="..."
-                src="images/team-2-800x800.jpg"
+                src="/images/team-2-800x800.jpg"
                 class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px"
               />
@@ -342,7 +342,7 @@
             <div class="px-6">
               <img
                 alt="..."
-                src="images/team-3-800x800.jpg"
+                src="/images/team-3-800x800.jpg"
                 class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px"
               />
@@ -376,7 +376,7 @@
             <div class="px-6">
               <img
                 alt="..."
-                src="images/team-4-470x470.png"
+                src="/images/team-4-470x470.png"
                 class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px"
               />

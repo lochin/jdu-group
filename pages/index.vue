@@ -86,7 +86,7 @@
             <div
               class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600">
               <img alt="..."
-                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1051&amp;q=80"
+                src="/images/partners.jpg"
                 class="w-full align-middle rounded-t-lg" />
               <blockquote class="relative p-8 mb-4">
                 <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95"
@@ -117,7 +117,7 @@
         <div class="items-center flex flex-wrap">
           <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
             <img alt="..." class="max-w-full rounded-lg shadow-lg"
-              src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=634&amp;q=80" />
+              src="/images/young-company.jpg" />
           </div>
           <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
             <div class="md:pr-12">
@@ -191,12 +191,12 @@
         <div class="flex flex-wrap">
           <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
             <div class="px-6">
-              <img alt="..." src="/images/team-1-800x800.jpg" class="shadow-lg rounded-full max-w-full mx-auto"
+              <img alt="..." src="/images/ceo.jpg" class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px" />
               <div class="pt-6 text-center">
-                <h5 class="text-xl font-bold">Ryan Tompson</h5>
+                <h5 class="text-xl font-bold">Hiroaki Haga</h5>
                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                  Web Developer
+                  President
                 </p>
                 <div class="mt-6">
                   <button class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
@@ -215,7 +215,7 @@
           </div>
           <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
             <div class="px-6">
-              <img alt="..." src="/images/team-2-800x800.jpg" class="shadow-lg rounded-full max-w-full mx-auto"
+              <img alt="..." src="/images/ceo.jpg" class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px" />
               <div class="pt-6 text-center">
                 <h5 class="text-xl font-bold">Romina Hadid</h5>
@@ -236,7 +236,7 @@
           </div>
           <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
             <div class="px-6">
-              <img alt="..." src="/images/team-3-800x800.jpg" class="shadow-lg rounded-full max-w-full mx-auto"
+              <img alt="..." src="/images/ceo.jpg" class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px" />
               <div class="pt-6 text-center">
                 <h5 class="text-xl font-bold">Alexa Smith</h5>
@@ -260,7 +260,7 @@
           </div>
           <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
             <div class="px-6">
-              <img alt="..." src="/images/team-4-470x470.png" class="shadow-lg rounded-full max-w-full mx-auto"
+              <img alt="..." src="/images/ceo.jpg" class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px" />
               <div class="pt-6 text-center">
                 <h5 class="text-xl font-bold">Jenna Kardi</h5>

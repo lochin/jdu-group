@@ -66,7 +66,11 @@
 
         </div>
         <div class="flex flex-wrap items-center mt-32">
-          <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">           
+          <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
+            <div
+              class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100">
+              <font-awesome-icon icon="fa-solid fa-user-group" class="w-6 h-6" />
+            </div>
             <h3 class="text-3xl mb-2 font-semibold leading-normal">
               Biz bilan hamkorlik qiling
             </h3>
@@ -85,9 +89,7 @@
           <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
             <div
               class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600">
-              <img alt="..."
-                src="/images/partners.jpg"
-                class="w-full align-middle rounded-t-lg" />
+              <img alt="..." src="/images/partners.jpg" class="w-full align-middle rounded-t-lg" />
               <blockquote class="relative p-8 mb-4">
                 <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95"
                   class="absolute left-0 w-full block" style="height: 95px; top: -94px">
@@ -116,8 +118,7 @@
       <div class="container mx-auto px-4">
         <div class="items-center flex flex-wrap">
           <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
-            <img alt="..." class="max-w-full rounded-lg shadow-lg"
-              src="/images/young-company.jpg" />
+            <img alt="..." class="max-w-full rounded-lg shadow-lg" src="/images/young-company.jpg" />
           </div>
           <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
             <div class="md:pr-12">
@@ -201,13 +202,11 @@
                 <div class="mt-6">
                   <button class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                     type="button">
-                    <i class="fab fa-twitter"></i></button><button
-                    class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    <font-awesome-icon icon="fa-brands fa-twitter" />
+                  </button>
+                  <button class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                     type="button">
-                    <i class="fab fa-facebook-f"></i></button><button
-                    class="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button">
-                    <i class="fab fa-dribbble"></i>
+                    <font-awesome-icon icon="fa-brands fa-facebook" />
                   </button>
                 </div>
               </div>
@@ -218,17 +217,18 @@
               <img alt="..." src="/images/ceo.jpg" class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px" />
               <div class="pt-6 text-center">
-                <h5 class="text-xl font-bold">Romina Hadid</h5>
+                <h5 class="text-xl font-bold">Mamajonov Ravshanbek</h5>
                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                  Marketing Specialist
+                  Rektor
                 </p>
                 <div class="mt-6">
                   <button class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                     type="button">
-                    <i class="fab fa-google"></i></button><button
-                    class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    <font-awesome-icon icon="fa-brands fa-google" />
+                  </button>
+                  <button class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                     type="button">
-                    <i class="fab fa-facebook-f"></i>
+                    <font-awesome-icon icon="fa-brands fa-facebook" />
                   </button>
                 </div>
               </div>
@@ -246,13 +246,15 @@
                 <div class="mt-6">
                   <button class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                     type="button">
-                    <i class="fab fa-google"></i></button><button
-                    class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    <font-awesome-icon icon="fa-brands fa-google" />
+                  </button>
+                  <button class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                     type="button">
-                    <i class="fab fa-twitter"></i></button><button
-                    class="bg-gray-800 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    <font-awesome-icon icon="fa-brands fa-twitter" />
+                  </button>
+                  <button class="bg-gray-800 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                     type="button">
-                    <i class="fab fa-instagram"></i>
+                    <font-awesome-icon icon="fa-brands fa-instagram" />
                   </button>
                 </div>
               </div>
@@ -270,16 +272,19 @@
                 <div class="mt-6">
                   <button class="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                     type="button">
-                    <i class="fab fa-dribbble"></i></button><button
-                    class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    <font-awesome-icon icon="fa-brands fa-dribbble" />
+                  </button>
+                  <button class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                     type="button">
-                    <i class="fab fa-google"></i></button><button
-                    class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    <font-awesome-icon icon="fa-brands fa-google" />
+                  </button>
+                  <button class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                     type="button">
-                    <i class="fab fa-twitter"></i></button><button
-                    class="bg-gray-800 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    <font-awesome-icon icon="fa-brands fa-twitter" />
+                  </button>
+                  <button class="bg-gray-800 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                     type="button">
-                    <i class="fab fa-instagram"></i>
+                    <font-awesome-icon icon="fa-brands fa-instagram" />
                   </button>
                 </div>
               </div>
@@ -311,7 +316,7 @@
           <div class="w-full lg:w-3/12 px-4 text-center">
             <div
               class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-              <i class="fas fa-medal text-xl"></i>
+              <font-awesome-icon icon="fa-solid fa-medal" class="w-6 h-6" />
             </div>
             <h6 class="text-xl mt-5 font-semibold text-white">
               Excelent Services
@@ -324,7 +329,7 @@
           <div class="w-full lg:w-3/12 px-4 text-center">
             <div
               class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-              <font-awesome-icon icon="fa-solid fa-user-secret" />
+              <font-awesome-icon icon="fa-solid fa-user-secret" class="w-6 h-6" />
             </div>
             <h5 class="text-xl mt-5 font-semibold text-white">
               Grow your market
@@ -337,7 +342,7 @@
           <div class="w-full lg:w-3/12 px-4 text-center">
             <div
               class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-              <i class="fas fa-lightbulb text-xl"></i>
+              <font-awesome-icon icon="fa-solid fa-lightbulb" class="w-6 h-6" />
             </div>
             <h5 class="text-xl mt-5 font-semibold text-white">Launch time</h5>
             <p class="mt-2 mb-4 text-gray-500">
@@ -400,14 +405,32 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 /* import specific icons */
-import { faUserSecret } from "@fortawesome/free-solid-svg-icons";
 import { faSchool } from "@fortawesome/free-solid-svg-icons";
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import { faRocket } from "@fortawesome/free-solid-svg-icons";
+import { faUserGroup } from "@fortawesome/free-solid-svg-icons";
+import { faMedal } from "@fortawesome/free-solid-svg-icons";
+import { faUserSecret } from "@fortawesome/free-solid-svg-icons";
+import { faLightbulb } from "@fortawesome/free-solid-svg-icons";
+
+import { faGoogle } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faDribbble } from "@fortawesome/free-brands-svg-icons";
 
 /* add icons to the library */
-library.add(faUserSecret);
 library.add(faSchool);
 library.add(faBriefcase);
 library.add(faRocket);
+library.add(faUserGroup);
+library.add(faMedal);
+library.add(faUserSecret);
+library.add(faLightbulb);
+
+library.add(faGoogle);
+library.add(faFacebook);
+library.add(faInstagram);
+library.add(faTwitter);
+library.add(faDribbble);
 </script>

@@ -42,7 +42,7 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 /* import specific icons */
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import consolaGlobalInstance from "consola";
+
 
 /* add icons to the library */
 library.add(faBars);

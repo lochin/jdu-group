@@ -1,9 +1,7 @@
 <template>
   <main>
     <div class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 75vh">
-      <div class="absolute top-0 w-full h-full bg-center bg-cover" style="
-          background-image: url('/images/cover.jpg');
-        ">
+      <div class="absolute top-0 w-full h-full bg-center bg-cover" style="background-image: url('/images/cover.jpg');">
         <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-black"></span>
       </div>
       <div class="container relative mx-auto">
@@ -74,17 +72,14 @@
             <h3 class="text-3xl mb-2 font-semibold leading-normal">
               Biz bilan hamkorlik qiling
             </h3>
-            <p class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
-              Don't let your uses guess by attaching tooltips and popoves to any
-              element. Just make sure you enable them first via JavaScript.
-            </p>
+
             <p class="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
-              The kit comes with three pre-built pages to help you get started
-              faster. You can change the text and images and you're good to go.
-              Just make sure you enable them first via JavaScript.
+              Biz so'nggi 27 yil davomida faqat e-Learningga e'tibor qaratdik. 2000 dan ortiq maktab va kompaniyalarda
+              o'rnatish bo'yicha faxrli tajribamiz bilan biz elektron ta'lim tizimini yaratishdan o'quv materiallarini
+              yaratish va ishlatishgacha har tomonlama yordamni taklif etamiz. Biz mijozlar va talabalarni yaxshiroq
+              ta'limga erishish uchun bog'laydigan "o'rganish ko'prigi" sifatida harakat qilamiz.
             </p>
-            <a href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
-              class="font-bold text-gray-800 mt-8">Check Tailwind Starter Kit!</a>
+            <a href="#" class="font-bold text-gray-800 mt-8">Bizning hamkorlar bilan tanishish</a>
           </div>
           <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
             <div
@@ -95,11 +90,10 @@
                   class="absolute left-0 w-full block" style="height: 95px; top: -94px">
                   <polygon points="-30,95 583,95 583,65" class="text-pink-600 fill-current"></polygon>
                 </svg>
-                <h4 class="text-xl font-bold text-white">Top Notch Services</h4>
+                <h4 class="text-xl font-bold text-white">Digital Knowledge Co., Ltd.</h4>
                 <p class="text-md font-light mt-2 text-white">
-                  The Arctic Ocean freezes every winter and much of the sea-ice
-                  then thaws every summer, and that process will continue
-                  whatever happens.
+                  JDU - bu O'zbekiston Respublikasining normativ-huquqiy hujjatlari asosida rasman tashkil
+                  qilingan nodavlat oliy ta'lim muassasasidir:
                 </p>
               </blockquote>
             </div>
@@ -181,11 +175,11 @@
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap justify-center text-center mb-24">
           <div class="w-full lg:w-6/12 px-4">
-            <h2 class="text-4xl font-semibold">Here are our heroes</h2>
+            <h2 class="text-4xl font-semibold">Mana bizning qahramonlarimiz</h2>
             <p class="text-lg leading-relaxed m-4 text-gray-600">
-              According to the National Oceanic and Atmospheric Administration,
-              Ted, Scambos, NSIDClead scentist, puts the potentially record
-              maximum.
+              Shuningdek, o'qishni tamomlashdan oldin JDU vositachiligi yordamida Yaponiyaning nufuzli kompaniyalaridan
+              biriga ishga kirish hal qilinadi va o'qish tamomlangach Yaponiyaga borib, IT muhandisi sifatida yuqori
+              maoshli zamonaviy ish joylarida ishlash mumkin bo'ladi.
             </p>
           </div>
         </div>
@@ -239,7 +233,7 @@
               <img alt="..." src="/images/ceo.jpg" class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px" />
               <div class="pt-6 text-center">
-                <h5 class="text-xl font-bold">Alexa Smith</h5>
+                <h5 class="text-xl font-bold">Hiroaki Haga</h5>
                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
                   UI/UX Designer
                 </p>
@@ -265,7 +259,7 @@
               <img alt="..." src="/images/ceo.jpg" class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px" />
               <div class="pt-6 text-center">
-                <h5 class="text-xl font-bold">Jenna Kardi</h5>
+                <h5 class="text-xl font-bold">Hiroaki Haga</h5>
                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
                   Founder and CEO
                 </p>
@@ -304,11 +298,11 @@
       <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
         <div class="flex flex-wrap text-center justify-center">
           <div class="w-full lg:w-6/12 px-4">
-            <h2 class="text-4xl font-semibold text-white">Build something</h2>
+            <h2 class="text-4xl font-semibold text-white">Biz bilan ishlash</h2>
             <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
-              Put the potentially record low maximum sea ice extent tihs year
-              down to low ice. According to the National Oceanic and Atmospheric
-              Administration, Ted, Scambos.
+              Bu yerga faqat universitet emas, balki imkoniyatlar to’plangan, orzular ro’yobga chiqadigan joy sifatida
+              qarashingizni so’rayman. Bu universitetning talabasi bo’ldingiz degani, allaqachon global miqyosdagi
+              mutaxassis bo’lib yetishish uchun birinchi qadamni qo’ygansiz deganidir.
             </p>
           </div>
         </div>
@@ -319,11 +313,11 @@
               <font-awesome-icon icon="fa-solid fa-medal" class="w-6 h-6" />
             </div>
             <h6 class="text-xl mt-5 font-semibold text-white">
-              Excelent Services
+              Ajoyib xizmatlar
             </h6>
             <p class="mt-2 mb-4 text-gray-500">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              O’zbekiston rivoji uchun chet elda ta’lim olgan va o’sha yerdagi ish tajribasiga ega kadrlar juda ham
+              zarur.
             </p>
           </div>
           <div class="w-full lg:w-3/12 px-4 text-center">
@@ -332,11 +326,11 @@
               <font-awesome-icon icon="fa-solid fa-user-secret" class="w-6 h-6" />
             </div>
             <h5 class="text-xl mt-5 font-semibold text-white">
-              Grow your market
+              Bozoringizni rivojlantiring
             </h5>
             <p class="mt-2 mb-4 text-gray-500">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Yaponiya esa oxirgi yillarda aholining kamayishi muammosiga duch kelmoqda va natijada ishchi
+              kuchining yetishmasligi yuzaga chiqmoqda.
             </p>
           </div>
           <div class="w-full lg:w-3/12 px-4 text-center">
@@ -344,10 +338,10 @@
               class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
               <font-awesome-icon icon="fa-solid fa-lightbulb" class="w-6 h-6" />
             </div>
-            <h5 class="text-xl mt-5 font-semibold text-white">Launch time</h5>
+            <h5 class="text-xl mt-5 font-semibold text-white">Ishga tushirish vaqti</h5>
             <p class="mt-2 mb-4 text-gray-500">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              IT muhandislariga bo'lgan talab juda ham yuqori bo’lib, bunday mutaxassislarga O’zbekistonning o’zida ham
+              katta ehtiyoj mavjud.
             </p>
           </div>
         </div>
@@ -359,33 +353,37 @@
           <div class="w-full lg:w-6/12 px-4">
             <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300">
               <div class="flex-auto p-5 lg:p-10">
-                <h4 class="text-2xl font-semibold">Want to work with us?</h4>
+                <h4 class="text-2xl font-semibold">Biz bilan ishlashni xohlaysizmi?</h4>
                 <p class="leading-relaxed mt-1 mb-4 text-gray-600">
-                  Complete this form and we will get back to you in 24 hours.
+                  Ushbu shaklni to'ldiring va biz sizga 24 soat ichida javob beramiz.
                 </p>
                 <div class="relative w-full mb-3 mt-8">
-                  <label class="block uppercase text-gray-700 text-xs font-bold mb-2" for="full-name">Full
-                    Name</label><input type="text"
+                  <label class="block uppercase text-gray-700 text-xs font-bold mb-2" for="full-name">
+                    To'liq ism
+                  </label>
+                  <input type="text"
                     class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
-                    placeholder="Full Name" style="transition: all 0.15s ease 0s" />
+                    placeholder="To'liq ismingizni yozing" style="transition: all 0.15s ease 0s" />
                 </div>
                 <div class="relative w-full mb-3">
-                  <label class="block uppercase text-gray-700 text-xs font-bold mb-2" for="email">Email</label><input
-                    type="email"
+                  <label class="block uppercase text-gray-700 text-xs font-bold mb-2" for="email">
+                    Elektron pochta
+                  </label>
+                  <input type="email"
                     class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
-                    placeholder="Email" style="transition: all 0.15s ease 0s" />
+                    placeholder="Elektron pochtangizni yozing" style="transition: all 0.15s ease 0s" />
                 </div>
                 <div class="relative w-full mb-3">
                   <label class="block uppercase text-gray-700 text-xs font-bold mb-2"
-                    for="message">Message</label><textarea rows="4" cols="80"
+                    for="message">Xabar</label><textarea rows="4" cols="80"
                     class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
-                    placeholder="Type a message..."></textarea>
+                    placeholder="Xabar yozing..."></textarea>
                 </div>
                 <div class="text-center mt-6">
                   <button
                     class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
                     type="button" style="transition: all 0.15s ease 0s">
-                    Send Message
+                    Xabarni yuborish
                   </button>
                 </div>
               </div>

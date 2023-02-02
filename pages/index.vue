@@ -101,6 +101,9 @@
         </div>
       </div>
     </section>
+
+    <!-- JDU section -->
+
     <section class="relative py-20">
       <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
         style="height: 80px">
@@ -112,19 +115,22 @@
       <div class="container mx-auto px-4">
         <div class="items-center flex flex-wrap">
           <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
-            <img alt="..." class="max-w-full rounded-lg shadow-lg" src="/images/young-company.jpg" />
+            <img alt="..." class="max-w-full rounded-lg shadow-lg" src="/images/cover.jpg" />
           </div>
           <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
             <div class="md:pr-12">
               <div
-                class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300">
-                <font-awesome-icon icon="fa-solid fa-rocket" class="w-6 h-6" />
+                class="hidden text-center md:inline-flex items-center justify-center w-20 h-20 mb-6 shadow-lg rounded-full">
+                <img alt="..." class="max-w-full rounded-full shadow-lg" src="/images/jdu_logo.png" />
               </div>
-              <h3 class="text-3xl font-semibold">Rivojlanayotgan kompaniya</h3>
+              <h3 class="text-3xl font-semibold">Japan Digital University</h3>
               <p class="mt-4 text-lg leading-relaxed text-gray-600">
-                The extension comes with three pre-built pages to help you get
-                started faster. You can change the text and images and you're
-                good to go.
+                <span class="font-bold">Maqsadi:</span> JDU yapon tili va IT muhandislik mahoratini mukammal o’rganib, Yaponiya universiteti va O’zbekistonning davlat universiteti ilmiy darajasini qo’lga kiritish imkoniyatini beradi.
+              </p>
+              <p class="mt-4 text-lg leading-relaxed text-gray-600">
+                <span class="font-bold">
+                  JDUda o'qishning afzalliklari
+                </span>
               </p>
               <ul class="list-none mt-6">
                 <li class="py-2">
@@ -136,7 +142,7 @@
                     </div>
                     <div>
                       <h4 class="text-gray-600">
-                        Carefully crafted components
+                        IT-muhandis bo'lib yetishish
                       </h4>
                     </div>
                   </div>
@@ -149,7 +155,375 @@
                           class="fab fa-html5"></i></span>
                     </div>
                     <div>
-                      <h4 class="text-gray-600">Amazing page examples</h4>
+                      <h4 class="text-gray-600">Ikki tomonlama diplomni qo'lga kirit</h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                          class="fab fa-html5"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">Yaponiyada ishga joylashish imkoniyati</h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                          class="fab fa-html5"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">Universitetda o'qib turib ishlash imkoniyati</h4>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="my-8">
+              <a href="https://jdu.uz" type="button" class="cursor-pointer inline-block px-6 py-2.5 bg-gray-200 text-gray-700 font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out">
+                Batafsil...
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- JDU Academy section -->
+
+    <section class="relative py-20">
+      <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+        style="height: 80px">
+        <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+          version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+          <polygon class="text-white fill-current" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+      <div class="container mx-auto px-4">
+        <div class="items-center flex flex-wrap">
+          <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+            <div class="md:pr-12">
+              <div
+                class="hidden text-center md:inline-flex items-center justify-center w-20 h-20 mb-6 shadow-lg rounded-full bg-pink-300">
+                <img alt="..." class="max-w-full rounded-full shadow-lg" src="/images/jdu_academy.jpg" />
+              </div>
+              <h3 class="text-3xl font-semibold">JDU Academy</h3>
+              <p class="mt-4 text-lg leading-relaxed text-gray-600">
+                <span class="font-bold">Maqsadi:</span> JDUda o'qishni maqsad qilgan abituriyentlar uchun tayyorlov
+                kurslarini olib boradi. Shuningdek, respublikamizning boshqa universitetlarida o`qishni maqsad qilgan
+                abituriyentlar ham bizning akademiyada o'zlarini qiziqtirgan fanlardan tahsil olishlari mumkin.
+              </p>
+              <p class="mt-4 text-lg leading-relaxed text-gray-600">
+                <span class="font-bold">
+                  O'qitiladigan fanlar
+                </span>
+              </p>
+              <ul class="list-none mt-6">
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                          class="fas fa-fingerprint"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">
+                        Matematika
+                      </h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                          class="fab fa-html5"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">Yapon tili</h4>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="my-8">
+              <button type="button" class="inline-block px-6 py-2.5 bg-gray-200 text-gray-700 font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out">
+                Batafsil...
+              </button>
+            </div>
+          </div>
+          <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+            <img alt="..." class="max-w-full rounded-full shadow-lg" src="/images/jdu_academy.jpg" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- JDU Kids section -->
+
+    <section class="relative py-20">
+      <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+        style="height: 80px">
+        <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+          version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+          <polygon class="text-white fill-current" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+      <div class="container mx-auto px-4">
+        <div class="items-center flex flex-wrap">
+          <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+            <img alt="..." class="max-w-full rounded-lg shadow-lg" src="/images/jdu_kids.jpg" />
+          </div>
+          <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+            <div class="md:pr-12">
+              <div
+                class="hidden text-center md:inline-flex items-center justify-center w-20 h-20 mb-6 shadow-lg rounded-full bg-pink-300">
+                <img alt="..." class="max-w-full rounded-full shadow-lg" src="/images/jdu_kids_logo.jpg" />
+              </div>
+              <h3 class="text-3xl font-semibold">JDU Kids</h3>
+              <p class="mt-4 text-lg leading-relaxed text-gray-600">
+                <span class="font-bold">Maqsadi:</span> Yaponiya ta'lim standardlari asosida O'zbekiston yoshlari
+                rivojiga hissa qo'shish
+              </p>
+              <p class="mt-4 text-lg leading-relaxed text-gray-600">
+                <span class="font-bold">
+                  O'qitiladigan fanlar
+                </span>
+              </p>
+              <ul class="list-none mt-6">
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                          class="fas fa-fingerprint"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">
+                        Sun'iy intellektga asoslangan mental arifmetika
+                      </h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                          class="fab fa-html5"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">Kids English</h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                          class="fab fa-html5"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">Matematika (tayyorgarlik jarayonida)</h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                          class="fab fa-html5"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">Mantiqiy fikrlash (tayyorgarlik jarayonida)</h4>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="my-8">
+              <button type="button" class="inline-block px-6 py-2.5 bg-gray-200 text-gray-700 font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out">
+                Batafsil...
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- JDU Systems section -->
+
+    <section class="relative py-20">
+      <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+        style="height: 80px">
+        <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+          version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+          <polygon class="text-white fill-current" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+      <div class="container mx-auto px-4">
+        <div class="items-center flex flex-wrap">
+          <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+            <div class="md:pr-12">
+              <div
+                class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300">
+                <font-awesome-icon icon="fa-solid fa-rocket" class="w-6 h-6" />
+              </div>
+              <h3 class="text-3xl font-semibold">JDU Systems</h3>
+              <p class="mt-4 text-lg leading-relaxed text-gray-600">
+                <span class="font-bold">Maqsadi:</span>
+                Yaponiya kompaniyalari uchun IT xizmatini taklif etish
+              </p>
+              <p class="mt-4 text-lg leading-relaxed text-gray-600">
+                <span class="font-bold">
+                  Taklif etiladigan xizmat turlari
+                </span>
+              </p>
+              <ul class="list-none mt-6">
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                          class="fas fa-fingerprint"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">
+                        Dashturlash
+                      </h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                          class="fab fa-html5"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">Dizayn</h4>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <p class="mt-4 text-lg leading-relaxed text-gray-600">
+                <span class="font-bold">
+                  Taklif etiladigan xizmat turlari
+                </span>
+              </p>
+              <ul class="list-none mt-6">
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                          class="fas fa-fingerprint"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">
+                        Yapon tili va IT bilimlariga ega talabalarning ko`pligi
+                      </h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                          class="fab fa-html5"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">Yapon xodimlarining Bridge sifatida loyiha boshqaruvchisi bo`lib biriktirilganligi</h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                          class="fab fa-html5"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">Yaponcha ishlash usuli va ish sifati</h4>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="my-8">
+              <button type="button" class="inline-block px-6 py-2.5 bg-gray-200 text-gray-700 font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out">
+                Batafsil...
+              </button>
+            </div>
+          </div>
+          <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+            <img alt="..." class="max-w-full rounded-lg shadow-lg" src="/images/young-company.jpg" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- JDU Consulting section -->
+
+    <section class="relative py-20">
+      <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+        style="height: 80px">
+        <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+          version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+          <polygon class="text-white fill-current" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+      <div class="container mx-auto px-4">
+        <div class="items-center flex flex-wrap justify-center">
+          <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+            <img alt="..." class="max-w-full rounded-lg shadow-lg" src="/images/rektor.jpg" />
+          </div>
+          <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+            <div class="md:pr-12">
+              <div
+                class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300">
+                <font-awesome-icon icon="fa-solid fa-rocket" class="w-6 h-6" />
+              </div>
+              <h3 class="text-3xl font-semibold">JDU Consulting</h3>
+              <p class="mt-4 text-lg leading-relaxed text-gray-600">
+                Chief Consultant Profile
+              </p>
+              <ul class="list-none mt-6">
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                          class="fas fa-fingerprint"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">
+                        Market research
+                      </h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                          class="fab fa-html5"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">Marketing </h4>
                     </div>
                   </div>
                 </li>
@@ -161,16 +535,34 @@
                           class="far fa-paper-plane"></i></span>
                     </div>
                     <div>
-                      <h4 class="text-gray-600">Dynamic components</h4>
+                      <h4 class="text-gray-600">Accounting</h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                          class="far fa-paper-plane"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">Market entry support</h4>
                     </div>
                   </div>
                 </li>
               </ul>
             </div>
+            <div class="my-8">
+              <button type="button" class="inline-block px-6 py-2.5 bg-gray-200 text-gray-700 font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out">
+                Batafsil...
+              </button>
+            </div>
           </div>
         </div>
       </div>
     </section>
+
     <section class="pt-20 pb-48">
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap justify-center text-center mb-24">
@@ -208,7 +600,7 @@
           </div>
           <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
             <div class="px-6">
-              <img alt="..." src="/images/ceo.jpg" class="shadow-lg rounded-full max-w-full mx-auto"
+              <img alt="..." src="/images/rector_icon.jpg" class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px" />
               <div class="pt-6 text-center">
                 <h5 class="text-xl font-bold">Mamajonov Ravshanbek</h5>
@@ -287,6 +679,8 @@
         </div>
       </div>
     </section>
+
+
     <section class="pb-20 relative block bg-gray-900">
       <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
         style="height: 80px">
@@ -347,6 +741,8 @@
         </div>
       </div>
     </section>
+
+
     <section class="relative block py-24 lg:pt-0 bg-gray-900">
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">

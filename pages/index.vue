@@ -575,7 +575,7 @@
             </p>
           </div>
         </div>
-        <div class="flex flex-wrap">
+        <div class="flex flex-wrap justify-center">
           <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
             <div class="px-6">
               <img alt="..." src="/images/ceo.jpg" class="shadow-lg rounded-full max-w-full mx-auto"
@@ -583,7 +583,7 @@
               <div class="pt-6 text-center">
                 <h5 class="text-xl font-bold">Hiroaki Haga</h5>
                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                  President
+                  Muassis korxona <br>"Digital Knowledge" rahbari
                 </p>
                 <div class="mt-6">
                   <button class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
@@ -605,7 +605,7 @@
               <div class="pt-6 text-center">
                 <h5 class="text-xl font-bold">Mamajonov Ravshanbek</h5>
                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                  Rektor
+                  JDU Group rahbari
                 </p>
                 <div class="mt-6">
                   <button class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
@@ -615,62 +615,6 @@
                   <button class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                     type="button">
                     <font-awesome-icon icon="fa-brands fa-facebook" />
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-            <div class="px-6">
-              <img alt="..." src="/images/ceo.jpg" class="shadow-lg rounded-full max-w-full mx-auto"
-                style="max-width: 120px" />
-              <div class="pt-6 text-center">
-                <h5 class="text-xl font-bold">Hiroaki Haga</h5>
-                <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                  UI/UX Designer
-                </p>
-                <div class="mt-6">
-                  <button class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button">
-                    <font-awesome-icon icon="fa-brands fa-google" />
-                  </button>
-                  <button class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button">
-                    <font-awesome-icon icon="fa-brands fa-twitter" />
-                  </button>
-                  <button class="bg-gray-800 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button">
-                    <font-awesome-icon icon="fa-brands fa-instagram" />
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-            <div class="px-6">
-              <img alt="..." src="/images/ceo.jpg" class="shadow-lg rounded-full max-w-full mx-auto"
-                style="max-width: 120px" />
-              <div class="pt-6 text-center">
-                <h5 class="text-xl font-bold">Hiroaki Haga</h5>
-                <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                  Founder and CEO
-                </p>
-                <div class="mt-6">
-                  <button class="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button">
-                    <font-awesome-icon icon="fa-brands fa-dribbble" />
-                  </button>
-                  <button class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button">
-                    <font-awesome-icon icon="fa-brands fa-google" />
-                  </button>
-                  <button class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button">
-                    <font-awesome-icon icon="fa-brands fa-twitter" />
-                  </button>
-                  <button class="bg-gray-800 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button">
-                    <font-awesome-icon icon="fa-brands fa-instagram" />
                   </button>
                 </div>
               </div>

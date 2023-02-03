@@ -43,13 +43,7 @@
               <span class="block uppercase text-gray-600 text-sm font-semibold mb-2">Ko'proq ma'lumot</span>
               <ul class="list-unstyled">
                 <li>
-                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#">JDU haqida</a>
-                </li>
-                <li>
-                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#">Xizmatlar</a>
-                </li>
-                <li>
-                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#">Bog'lanish</a>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#group">JDU Group</a>
                 </li>
               </ul>
             </div>
@@ -57,19 +51,19 @@
               <span class="block uppercase text-gray-600 text-sm font-semibold mb-2">Tarmoqlarimiz</span>
               <ul class="list-unstyled">
                 <li>
-                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#">University</a>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#university">JDU University</a>
                 </li>
                 <li>
-                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#">JDU Kids</a>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#academy">JDU Academy</a>
                 </li>
                 <li>
-                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#">JDU Academy</a>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#kids">JDU Kids</a>
                 </li>
                 <li>
-                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#">JDU Systems</a>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#systems">JDU Systems</a>
                 </li>
                 <li>
-                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#">Consulting</a>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#consulting">JDU Consulting</a>
                 </li>
               </ul>
             </div>

@@ -633,61 +633,13 @@
           <polygon class="text-gray-900 fill-current" points="2560 0 2560 100 0 100"></polygon>
         </svg>
       </div>
-      <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
-        <div class="flex flex-wrap text-center justify-center">
-          <div class="w-full lg:w-6/12 px-4">
-            <h2 class="text-4xl font-semibold text-white">Biz bilan ishlash</h2>
-            <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
-              Bu yerga faqat universitet emas, balki imkoniyatlar to’plangan, orzular ro’yobga chiqadigan joy sifatida
-              qarashingizni so’rayman. Bu universitetning talabasi bo’ldingiz degani, allaqachon global miqyosdagi
-              mutaxassis bo’lib yetishish uchun birinchi qadamni qo’ygansiz deganidir.
-            </p>
-          </div>
-        </div>
-        <div class="flex flex-wrap mt-12 justify-center">
-          <div class="w-full lg:w-3/12 px-4 text-center">
-            <div
-              class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-              <font-awesome-icon icon="fa-solid fa-medal" class="w-6 h-6" />
-            </div>
-            <h6 class="text-xl mt-5 font-semibold text-white">
-              Ajoyib xizmatlar
-            </h6>
-            <p class="mt-2 mb-4 text-gray-500">
-              O’zbekiston rivoji uchun chet elda ta’lim olgan va o’sha yerdagi ish tajribasiga ega kadrlar juda ham
-              zarur.
-            </p>
-          </div>
-          <div class="w-full lg:w-3/12 px-4 text-center">
-            <div
-              class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-              <font-awesome-icon icon="fa-solid fa-user-secret" class="w-6 h-6" />
-            </div>
-            <h5 class="text-xl mt-5 font-semibold text-white">
-              Bozoringizni rivojlantiring
-            </h5>
-            <p class="mt-2 mb-4 text-gray-500">
-              Yaponiya esa oxirgi yillarda aholining kamayishi muammosiga duch kelmoqda va natijada ishchi
-              kuchining yetishmasligi yuzaga chiqmoqda.
-            </p>
-          </div>
-          <div class="w-full lg:w-3/12 px-4 text-center">
-            <div
-              class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-              <font-awesome-icon icon="fa-solid fa-lightbulb" class="w-6 h-6" />
-            </div>
-            <h5 class="text-xl mt-5 font-semibold text-white">Ishga tushirish vaqti</h5>
-            <p class="mt-2 mb-4 text-gray-500">
-              IT muhandislariga bo'lgan talab juda ham yuqori bo’lib, bunday mutaxassislarga O’zbekistonning o’zida ham
-              katta ehtiyoj mavjud.
-            </p>
-          </div>
-        </div>
+      <div class="container mx-auto px-2 lg:pt-12 lg:pb-24">    
+      
       </div>
     </section>
 
 
-    <section class="relative block py-24 lg:pt-0 bg-gray-900">
+    <section class="relative block py-24 bg-gray-900">
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
           <div class="w-full lg:w-6/12 px-4">

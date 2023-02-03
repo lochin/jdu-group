@@ -226,7 +226,7 @@
             </div>
           </div>
           <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
-            <img alt="..." class="max-w-full rounded-full shadow-lg" src="/images/jdu_academy.jpg" />
+            <img alt="..." class="max-w-full rounded-full shadow-lg" src="/images/academy-cover.jpg" />
           </div>
         </div>
       </div>

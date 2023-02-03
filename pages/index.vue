@@ -533,7 +533,7 @@
       </div>
     </section>
 
-    <section class="pt-20 pb-48">
+    <section class="pb-16">
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap justify-center text-center mb-24">
           <div class="w-full lg:w-6/12 px-4">
@@ -596,6 +596,7 @@
 
 
     <section id="contact" class="pb-20 relative block bg-gray-900">
+
       <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
         style="height: 80px">
         <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
@@ -603,56 +604,41 @@
           <polygon class="text-gray-900 fill-current" points="2560 0 2560 100 0 100"></polygon>
         </svg>
       </div>
+
       <div class="container mx-auto px-2 lg:pt-12 lg:pb-24">
+        <h2 class="text-4xl text-white text-center font-semibold pb-12">Biz bilan bog'lanish</h2>
+        <div class="flex flex-wrap justify-center">
+          <div class="w-full md:w-6/12 lg:w-6/12 lg:mb-0 mb-12 px-4">
 
-      </div>
-    </section>
+            <div class="pt-6 px-32 text-center">
+              <h5 class="text-xl text-white font-bold">Manzil</h5>
+              <p class="mt-1 text-sm text-gray-500 font-semibold">
+                100106, Toshkent shahri, Uchtepa tumani, Kichik Halqa Yo'li 21A (Jahon tillari universiteti ichida)
+              </p>
+              <h5 class="text-xl text-white font-bold mt-4">Telefon</h5>
+              <p class="mt-1 text-sm text-gray-500 font-semibold">
+                (71) 200-05-95
+              </p>
+              <h5 class="text-xl text-white font-bold mt-4">Elektron pochta</h5>
+              <p class="mt-1 text-sm text-gray-500 font-semibold">
+                info@jdu.uz
+              </p>
+            </div>
 
-
-    <section  class="relative block py-24 bg-gray-900">
-      <div class="container mx-auto px-4">
-        <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
-          <div class="w-full lg:w-6/12 px-4">
-            <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300">
-              <div class="flex-auto p-5 lg:p-10">
-                <h4 class="text-2xl font-semibold">Biz bilan ishlashni xohlaysizmi?</h4>
-                <p class="leading-relaxed mt-1 mb-4 text-gray-600">
-                  Ushbu shaklni to'ldiring va biz sizga 24 soat ichida javob beramiz.
-                </p>
-                <div class="relative w-full mb-3 mt-8">
-                  <label class="block uppercase text-gray-700 text-xs font-bold mb-2" for="full-name">
-                    To'liq ism
-                  </label>
-                  <input type="text"
-                    class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
-                    placeholder="To'liq ismingizni yozing" style="transition: all 0.15s ease 0s" />
-                </div>
-                <div class="relative w-full mb-3">
-                  <label class="block uppercase text-gray-700 text-xs font-bold mb-2" for="email">
-                    Elektron pochta
-                  </label>
-                  <input type="email"
-                    class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
-                    placeholder="Elektron pochtangizni yozing" style="transition: all 0.15s ease 0s" />
-                </div>
-                <div class="relative w-full mb-3">
-                  <label class="block uppercase text-gray-700 text-xs font-bold mb-2"
-                    for="message">Xabar</label><textarea rows="4" cols="80"
-                    class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
-                    placeholder="Xabar yozing..."></textarea>
-                </div>
-                <div class="text-center mt-6">
-                  <button
-                    class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
-                    type="button" style="transition: all 0.15s ease 0s">
-                    Xabarni yuborish
-                  </button>
+          </div>
+          <div class="w-full md:w-6/12 lg:w-6/12 lg:mb-0 mb-12 px-4">
+            <div class="px-6">
+              <div class="mapouter">
+                <div class="gmap_canvas">
+                  <iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                    src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=japan digital university&amp;t=p&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
     </section>
   </main>
 </template>
@@ -694,3 +680,24 @@ library.add(faInstagram);
 library.add(faTwitter);
 library.add(faDribbble);
 </script>
+
+<style scoped>
+.mapouter {
+  position: relative;
+  text-align: right;
+  width: 600px;
+  height: 400px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  width: 600px;
+  height: 400px;
+}
+
+.gmap_iframe {
+  width: 600px !important;
+  height: 400px !important;
+}
+</style>

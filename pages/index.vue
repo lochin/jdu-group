@@ -37,7 +37,7 @@
                   class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
                   <font-awesome-icon icon="fa-solid fa-school" class="w-6 h-6" />
                 </div>
-                <h6 class="text-xl font-semibold">Ta'lim</h6>
+                <h6 class="text-xl font-semibold"><a href="#university">Ta'lim</a></h6>
                 <p class="mt-2 mb-4 text-gray-600">
                   JDU yapon tili va IT muhandislik mahoratini mukammal o’rganib, Yaponiya universiteti va
                   O’zbekistonning davlat universiteti ilmiy darajasini qo’lga kiritish imkoniyatini beradi.
@@ -52,50 +52,12 @@
                   class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400">
                   <font-awesome-icon icon="fa-solid fa-briefcase" class="w-6 h-6" />
                 </div>
-                <h6 class="text-xl font-semibold">Biznes</h6>
+                <h6 class="text-xl font-semibold"><a href="#systems">Biznes</a></h6>
                 <p class="mt-2 mb-4 text-gray-600">
                   Yaponiyada IT muhandis sifatida yuqori daromadli ishda faoliyat yuritib, u
                   yerda erishilgan nou-xau hamda ushbu tajriba davomida orttirilgan ijtimoiy aloqalarni yo’lga qo’yish.
                 </p>
               </div>
-            </div>
-          </div>
-
-
-        </div>
-        <div class="flex flex-wrap items-center mt-32">
-          <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
-            <div
-              class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100">
-              <font-awesome-icon icon="fa-solid fa-user-group" class="w-6 h-6" />
-            </div>
-            <h3 class="text-3xl mb-2 font-semibold leading-normal">
-              Biz bilan hamkorlik qiling
-            </h3>
-
-            <p class="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
-              Biz so'nggi 27 yil davomida faqat e-Learningga e'tibor qaratdik. 2000 dan ortiq maktab va kompaniyalarda
-              o'rnatish bo'yicha faxrli tajribamiz bilan biz elektron ta'lim tizimini yaratishdan o'quv materiallarini
-              yaratish va ishlatishgacha har tomonlama yordamni taklif etamiz. Biz mijozlar va talabalarni yaxshiroq
-              ta'limga erishish uchun bog'laydigan "o'rganish ko'prigi" sifatida harakat qilamiz.
-            </p>
-            <a href="#" class="font-bold text-gray-800 mt-8">Bizning hamkorlar bilan tanishish</a>
-          </div>
-          <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
-            <div
-              class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600">
-              <img alt="..." src="/images/partners.jpg" class="w-full align-middle rounded-t-lg" />
-              <blockquote class="relative p-8 mb-4">
-                <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95"
-                  class="absolute left-0 w-full block" style="height: 95px; top: -94px">
-                  <polygon points="-30,95 583,95 583,65" class="text-pink-600 fill-current"></polygon>
-                </svg>
-                <h4 class="text-xl font-bold text-white">Digital Knowledge Co., Ltd.</h4>
-                <p class="text-md font-light mt-2 text-white">
-                  JDU - bu O'zbekiston Respublikasining normativ-huquqiy hujjatlari asosida rasman tashkil
-                  qilingan nodavlat oliy ta'lim muassasasidir:
-                </p>
-              </blockquote>
             </div>
           </div>
         </div>
@@ -104,7 +66,7 @@
 
     <!-- JDU section -->
 
-    <section class="relative py-20">
+    <section id="university" class="relative py-20">
       <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
         style="height: 80px">
         <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
@@ -125,7 +87,9 @@
               </div>
               <h3 class="text-3xl font-semibold">Japan Digital University</h3>
               <p class="mt-4 text-lg leading-relaxed text-gray-600">
-                <span class="font-bold">Maqsadi:</span> JDU yapon tili va IT muhandislik mahoratini mukammal o’rganib, Yaponiya universiteti va O’zbekistonning davlat universiteti ilmiy darajasini qo’lga kiritish imkoniyatini beradi.
+                <span class="font-bold">Maqsadi:</span> JDU yapon tili va IT muhandislik mahoratini mukammal o’rganib,
+                Yaponiya universiteti va O’zbekistonning davlat universiteti ilmiy darajasini qo’lga kiritish
+                imkoniyatini beradi.
               </p>
               <p class="mt-4 text-lg leading-relaxed text-gray-600">
                 <span class="font-bold">
@@ -186,7 +150,8 @@
               </ul>
             </div>
             <div class="my-8">
-              <a href="https://jdu.uz" type="button" class="cursor-pointer inline-block px-6 py-2.5 bg-gray-200 text-gray-700 font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out">
+              <a href="https://jdu.uz" type="button"
+                class="cursor-pointer inline-block px-6 py-2.5 bg-gray-200 text-gray-700 font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out">
                 Batafsil...
               </a>
             </div>
@@ -197,7 +162,7 @@
 
     <!-- JDU Academy section -->
 
-    <section class="relative py-20">
+    <section id="academy" class="relative py-20">
       <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
         style="height: 80px">
         <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
@@ -254,7 +219,8 @@
               </ul>
             </div>
             <div class="my-8">
-              <button type="button" class="inline-block px-6 py-2.5 bg-gray-200 text-gray-700 font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out">
+              <button type="button"
+                class="inline-block px-6 py-2.5 bg-gray-200 text-gray-700 font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out">
                 Batafsil...
               </button>
             </div>
@@ -268,7 +234,7 @@
 
     <!-- JDU Kids section -->
 
-    <section class="relative py-20">
+    <section id="kids" class="relative py-20">
       <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
         style="height: 80px">
         <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
@@ -351,7 +317,8 @@
               </ul>
             </div>
             <div class="my-8">
-              <button type="button" class="inline-block px-6 py-2.5 bg-gray-200 text-gray-700 font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out">
+              <button type="button"
+                class="inline-block px-6 py-2.5 bg-gray-200 text-gray-700 font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out">
                 Batafsil...
               </button>
             </div>
@@ -362,7 +329,7 @@
 
     <!-- JDU Systems section -->
 
-    <section class="relative py-20">
+    <section id="systems" class="relative py-20">
       <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
         style="height: 80px">
         <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
@@ -444,7 +411,8 @@
                           class="fab fa-html5"></i></span>
                     </div>
                     <div>
-                      <h4 class="text-gray-600">Yapon xodimlarining Bridge sifatida loyiha boshqaruvchisi bo`lib biriktirilganligi</h4>
+                      <h4 class="text-gray-600">Yapon xodimlarining Bridge sifatida loyiha boshqaruvchisi bo`lib
+                        biriktirilganligi</h4>
                     </div>
                   </div>
                 </li>
@@ -463,7 +431,8 @@
               </ul>
             </div>
             <div class="my-8">
-              <button type="button" class="inline-block px-6 py-2.5 bg-gray-200 text-gray-700 font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out">
+              <button type="button"
+                class="inline-block px-6 py-2.5 bg-gray-200 text-gray-700 font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out">
                 Batafsil...
               </button>
             </div>
@@ -477,7 +446,7 @@
 
     <!-- JDU Consulting section -->
 
-    <section class="relative py-20">
+    <section id="consulting" class="relative py-20">
       <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
         style="height: 80px">
         <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
@@ -554,7 +523,8 @@
               </ul>
             </div>
             <div class="my-8">
-              <button type="button" class="inline-block px-6 py-2.5 bg-gray-200 text-gray-700 font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out">
+              <button type="button"
+                class="inline-block px-6 py-2.5 bg-gray-200 text-gray-700 font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out">
                 Batafsil...
               </button>
             </div>
@@ -625,7 +595,7 @@
     </section>
 
 
-    <section class="pb-20 relative block bg-gray-900">
+    <section id="contact" class="pb-20 relative block bg-gray-900">
       <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
         style="height: 80px">
         <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
@@ -633,13 +603,13 @@
           <polygon class="text-gray-900 fill-current" points="2560 0 2560 100 0 100"></polygon>
         </svg>
       </div>
-      <div class="container mx-auto px-2 lg:pt-12 lg:pb-24">    
-      
+      <div class="container mx-auto px-2 lg:pt-12 lg:pb-24">
+
       </div>
     </section>
 
 
-    <section class="relative block py-24 bg-gray-900">
+    <section  class="relative block py-24 bg-gray-900">
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
           <div class="w-full lg:w-6/12 px-4">

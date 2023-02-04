@@ -9,10 +9,10 @@
           <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
             <div class="pr-12">
               <h1 class="text-white font-semibold text-5xl">
-                Buyuk kelajak sari
+                Yaxshiroq erta uchun
               </h1>
               <p class="mt-4 text-lg text-gray-300">
-                IT sohasidagi global va yuqori malakali kadrlar
+                JDU bu Yaponiyaning Digital Knowledge Co.Ltd kompaniyasi muassisligida tashkil etilgan O‘zbekistondagi tashkilotdir. O‘zbekiston hamda Yaponiya o‘rtasida ko‘prik vazifasini o‘tab, barcha aloqador tomonlarning bugunidan ertasi yaxshiroq bo‘lishiga hissa qo‘shishni maqsad qilib olgan.
               </p>
             </div>
           </div>
@@ -39,8 +39,7 @@
                 </div>
                 <h6 class="text-xl font-semibold"><a href="#university">Ta'lim</a></h6>
                 <p class="mt-2 mb-4 text-gray-600">
-                  JDU yapon tili va IT muhandislik mahoratini mukammal o’rganib, Yaponiya universiteti va
-                  O’zbekistonning davlat universiteti ilmiy darajasini qo’lga kiritish imkoniyatini beradi.
+                  Yaponiya ta'lim standartlari asosida O‘zbekiston ta’lim sohasi rivoji uchun hissa qo‘shishni maqsad qilgan loyihalarni o‘z ichiga oladi. Hozirda JDU Universiteti, JDU Academy hamda JDU Kids xizmatlari yo‘lga qo‘yilgan. 
                 </p>
               </div>
             </div>
@@ -54,8 +53,7 @@
                 </div>
                 <h6 class="text-xl font-semibold"><a href="#systems">Biznes</a></h6>
                 <p class="mt-2 mb-4 text-gray-600">
-                  Yaponiyada IT muhandis sifatida yuqori daromadli ishda faoliyat yuritib, u
-                  yerda erishilgan nou-xau hamda ushbu tajriba davomida orttirilgan ijtimoiy aloqalarni yo’lga qo’yish.
+                  Yaponiya kompaniyalariga O‘zbekiston bilan o‘zaro  manfaatli hamkorlikka kirishishga yordam berishni ko‘zda tutuvchi loyihalar. Hozirda JDU Systems va JDU Consulting xizmatlari yo‘lga qo‘yilgan. 
                 </p>
               </div>
             </div>
@@ -87,9 +85,7 @@
               </div>
               <h3 class="text-3xl font-semibold">Japan Digital University</h3>
               <p class="mt-4 text-lg leading-relaxed text-gray-600">
-                <span class="font-bold">Maqsadi:</span> JDU yapon tili va IT muhandislik mahoratini mukammal o’rganib,
-                Yaponiya universiteti va O’zbekistonning davlat universiteti ilmiy darajasini qo’lga kiritish
-                imkoniyatini beradi.
+                <span class="font-bold">Maqsadi:</span> Yaponiya oliy ta’lim standartlari asosida global miqyosda faoliyat olib boradigan malakali kadrlar tayyorlash.
               </p>
               <p class="mt-4 text-lg leading-relaxed text-gray-600">
                 <span class="font-bold">
@@ -106,20 +102,8 @@
                     </div>
                     <div>
                       <h4 class="text-gray-600">
-                        IT-muhandis bo'lib yetishish
+                        O‘zbekistonda turgan holda Yaponiya universiteti diplomini qo‘lga kiritish
                       </h4>
-                    </div>
-                  </div>
-                </li>
-                <li class="py-2">
-                  <div class="flex items-center">
-                    <div>
-                      <span
-                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
-                          class="fab fa-html5"></i></span>
-                    </div>
-                    <div>
-                      <h4 class="text-gray-600">Ikki tomonlama diplomni qo'lga kirit</h4>
                     </div>
                   </div>
                 </li>
@@ -143,7 +127,19 @@
                           class="fab fa-html5"></i></span>
                     </div>
                     <div>
-                      <h4 class="text-gray-600">Universitetda o'qib turib ishlash imkoniyati</h4>
+                      <h4 class="text-gray-600">O‘qish davomida ishlab tajriba va daromad olish</h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                          class="fab fa-html5"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">Birdaniga uchta diplomni qo‘lga kiritish</h4>
                     </div>
                   </div>
                 </li>
@@ -180,9 +176,7 @@
               </div>
               <h3 class="text-3xl font-semibold">JDU Academy</h3>
               <p class="mt-4 text-lg leading-relaxed text-gray-600">
-                <span class="font-bold">Maqsadi:</span> JDUda o'qishni maqsad qilgan abituriyentlar uchun tayyorlov
-                kurslarini olib boradi. Shuningdek, respublikamizning boshqa universitetlarida o`qishni maqsad qilgan
-                abituriyentlar ham bizning akademiyada o'zlarini qiziqtirgan fanlardan tahsil olishlari mumkin.
+                <span class="font-bold">Maqsadi:</span> JDUda o‘qishni maqsad qilgan abituriyentlar uchun tayyorlov kurslarini olib boradi. Shuningdek, respublikamizning boshqa universitetlarida o‘qishni maqsad qilgan abituriyentlar ham bizning akademiyada o‘zlarini qiziqtirgan fanlardan tahsil olishlari mumkin.
               </p>
               <p class="mt-4 text-lg leading-relaxed text-gray-600">
                 <span class="font-bold">
@@ -226,7 +220,7 @@
             </div>
           </div>
           <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
-            <img alt="..." class="max-w-full rounded-full shadow-lg" src="/images/academy-cover.jpg" />
+            <img alt="..." class="max-w-full rounded-lg shadow-lg" src="/images/academy-cover.jpg" />
           </div>
         </div>
       </div>
@@ -255,8 +249,7 @@
               </div>
               <h3 class="text-3xl font-semibold">JDU Kids</h3>
               <p class="mt-4 text-lg leading-relaxed text-gray-600">
-                <span class="font-bold">Maqsadi:</span> Yaponiya ta'lim standardlari asosida O'zbekiston yoshlari
-                rivojiga hissa qo'shish
+                <span class="font-bold">Maqsadi:</span> Yaponiya ta'lim standartlari asosida O‘zbekiston yoshlari rivojiga hissa qo'shish.
               </p>
               <p class="mt-4 text-lg leading-relaxed text-gray-600">
                 <span class="font-bold">
@@ -365,7 +358,7 @@
                     </div>
                     <div>
                       <h4 class="text-gray-600">
-                        Dashturlash
+                        Dasturlash
                       </h4>
                     </div>
                   </div>
@@ -385,7 +378,7 @@
               </ul>
               <p class="mt-4 text-lg leading-relaxed text-gray-600">
                 <span class="font-bold">
-                  Taklif etiladigan xizmat turlari
+                  JDU Systems afzalliklari
                 </span>
               </p>
               <ul class="list-none mt-6">
@@ -398,7 +391,7 @@
                     </div>
                     <div>
                       <h4 class="text-gray-600">
-                        Yapon tili va IT bilimlariga ega talabalarning ko`pligi
+                        Yapon tili va IT bilimlariga ega talabalarning ko‘pligi
                       </h4>
                     </div>
                   </div>
@@ -411,8 +404,7 @@
                           class="fab fa-html5"></i></span>
                     </div>
                     <div>
-                      <h4 class="text-gray-600">Yapon xodimlarining Bridge sifatida loyiha boshqaruvchisi bo`lib
-                        biriktirilganligi</h4>
+                      <h4 class="text-gray-600">Yapon xodimlarining Bridge sifatida loyiha boshqaruvchisi bo‘lib biriktirilganlig</h4>
                     </div>
                   </div>
                 </li>

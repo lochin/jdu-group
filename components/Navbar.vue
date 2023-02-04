@@ -92,7 +92,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 library.add(faBars);
 
 const showMenu = ref(false);
-const uzLang = ref(false);
+const uzLang = ref(true);
 
 function toggleNavbar() {
   showMenu.value = !showMenu.value;

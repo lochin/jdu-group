@@ -9,10 +9,10 @@
           <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
             <div class="pr-12">
               <h1 class="text-white font-semibold text-5xl">
-                Yaxshiroq erta uchun
+                {{ $t('motto') }}
               </h1>
               <p class="mt-4 text-lg text-gray-300">
-                JDU bu Yaponiyaning Digital Knowledge Co.Ltd kompaniyasi muassisligida tashkil etilgan O‘zbekistondagi tashkilotdir. O‘zbekiston hamda Yaponiya o‘rtasida ko‘prik vazifasini o‘tab, barcha aloqador tomonlarning bugunidan ertasi yaxshiroq bo‘lishiga hissa qo‘shishni maqsad qilib olgan.
+                {{ $t('main_description') }}
               </p>
             </div>
           </div>
@@ -39,7 +39,9 @@
                 </div>
                 <h6 class="text-xl font-semibold"><a href="#university">Ta'lim</a></h6>
                 <p class="mt-2 mb-4 text-gray-600">
-                  Yaponiya ta'lim standartlari asosida O‘zbekiston ta’lim sohasi rivoji uchun hissa qo‘shishni maqsad qilgan loyihalarni o‘z ichiga oladi. Hozirda JDU Universiteti, JDU Academy hamda JDU Kids xizmatlari yo‘lga qo‘yilgan. 
+                  Yaponiya ta'lim standartlari asosida O‘zbekiston ta’lim sohasi rivoji uchun hissa qo‘shishni maqsad
+                  qilgan loyihalarni o‘z ichiga oladi. Hozirda JDU Universiteti, JDU Academy hamda JDU Kids xizmatlari
+                  yo‘lga qo‘yilgan.
                 </p>
               </div>
             </div>
@@ -53,7 +55,8 @@
                 </div>
                 <h6 class="text-xl font-semibold"><a href="#systems">Biznes</a></h6>
                 <p class="mt-2 mb-4 text-gray-600">
-                  Yaponiya kompaniyalariga O‘zbekiston bilan o‘zaro  manfaatli hamkorlikka kirishishga yordam berishni ko‘zda tutuvchi loyihalar. Hozirda JDU Systems va JDU Consulting xizmatlari yo‘lga qo‘yilgan. 
+                  Yaponiya kompaniyalariga O‘zbekiston bilan o‘zaro manfaatli hamkorlikka kirishishga yordam berishni
+                  ko‘zda tutuvchi loyihalar. Hozirda JDU Systems va JDU Consulting xizmatlari yo‘lga qo‘yilgan.
                 </p>
               </div>
             </div>
@@ -85,7 +88,8 @@
               </div>
               <h3 class="text-3xl font-semibold">Japan Digital University</h3>
               <p class="mt-4 text-lg leading-relaxed text-gray-600">
-                <span class="font-bold">Maqsadi:</span> Yaponiya oliy ta’lim standartlari asosida global miqyosda faoliyat olib boradigan malakali kadrlar tayyorlash.
+                <span class="font-bold">Maqsadi:</span> Yaponiya oliy ta’lim standartlari asosida global miqyosda
+                faoliyat olib boradigan malakali kadrlar tayyorlash.
               </p>
               <p class="mt-4 text-lg leading-relaxed text-gray-600">
                 <span class="font-bold">
@@ -176,7 +180,9 @@
               </div>
               <h3 class="text-3xl font-semibold">JDU Academy</h3>
               <p class="mt-4 text-lg leading-relaxed text-gray-600">
-                <span class="font-bold">Maqsadi:</span> JDUda o‘qishni maqsad qilgan abituriyentlar uchun tayyorlov kurslarini olib boradi. Shuningdek, respublikamizning boshqa universitetlarida o‘qishni maqsad qilgan abituriyentlar ham bizning akademiyada o‘zlarini qiziqtirgan fanlardan tahsil olishlari mumkin.
+                <span class="font-bold">Maqsadi:</span> JDUda o‘qishni maqsad qilgan abituriyentlar uchun tayyorlov
+                kurslarini olib boradi. Shuningdek, respublikamizning boshqa universitetlarida o‘qishni maqsad qilgan
+                abituriyentlar ham bizning akademiyada o‘zlarini qiziqtirgan fanlardan tahsil olishlari mumkin.
               </p>
               <p class="mt-4 text-lg leading-relaxed text-gray-600">
                 <span class="font-bold">
@@ -249,7 +255,8 @@
               </div>
               <h3 class="text-3xl font-semibold">JDU Kids</h3>
               <p class="mt-4 text-lg leading-relaxed text-gray-600">
-                <span class="font-bold">Maqsadi:</span> Yaponiya ta'lim standartlari asosida O‘zbekiston yoshlari rivojiga hissa qo'shish.
+                <span class="font-bold">Maqsadi:</span> Yaponiya ta'lim standartlari asosida O‘zbekiston yoshlari
+                rivojiga hissa qo'shish.
               </p>
               <p class="mt-4 text-lg leading-relaxed text-gray-600">
                 <span class="font-bold">
@@ -404,7 +411,8 @@
                           class="fab fa-html5"></i></span>
                     </div>
                     <div>
-                      <h4 class="text-gray-600">Yapon xodimlarining Bridge sifatida loyiha boshqaruvchisi bo‘lib biriktirilganlig</h4>
+                      <h4 class="text-gray-600">Yapon xodimlarining Bridge sifatida loyiha boshqaruvchisi bo‘lib
+                        biriktirilganlig</h4>
                     </div>
                   </div>
                 </li>

@@ -37,11 +37,9 @@
                   class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
                   <font-awesome-icon icon="fa-solid fa-school" class="w-6 h-6" />
                 </div>
-                <h6 class="text-xl font-semibold"><a href="#university">Ta'lim</a></h6>
+                <h6 class="text-xl font-semibold"><a href="#university">{{ $t('education_card_title') }}</a></h6>
                 <p class="mt-2 mb-4 text-gray-600">
-                  Yaponiya ta'lim standartlari asosida O‘zbekiston ta’lim sohasi rivoji uchun hissa qo‘shishni maqsad
-                  qilgan loyihalarni o‘z ichiga oladi. Hozirda JDU Universiteti, JDU Academy hamda JDU Kids xizmatlari
-                  yo‘lga qo‘yilgan.
+                  {{ $t('education_card_description') }}
                 </p>
               </div>
             </div>
@@ -53,10 +51,9 @@
                   class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400">
                   <font-awesome-icon icon="fa-solid fa-briefcase" class="w-6 h-6" />
                 </div>
-                <h6 class="text-xl font-semibold"><a href="#systems">Biznes</a></h6>
+                <h6 class="text-xl font-semibold"><a href="#systems">{{ $t('business_card_title') }}</a></h6>
                 <p class="mt-2 mb-4 text-gray-600">
-                  Yaponiya kompaniyalariga O‘zbekiston bilan o‘zaro manfaatli hamkorlikka kirishishga yordam berishni
-                  ko‘zda tutuvchi loyihalar. Hozirda JDU Systems va JDU Consulting xizmatlari yo‘lga qo‘yilgan.
+                  {{ $t('business_card_description') }}
                 </p>
               </div>
             </div>
@@ -86,14 +83,14 @@
                 class="hidden text-center md:inline-flex items-center justify-center w-20 h-20 mb-6 shadow-lg rounded-full">
                 <img alt="..." class="max-w-full rounded-full shadow-lg" src="/images/jdu_logo.png" />
               </div>
-              <h3 class="text-3xl font-semibold">Japan Digital University</h3>
+              <h3 class="text-3xl font-semibold">{{ $t('jdu_title') }}</h3>
               <p class="mt-4 text-lg leading-relaxed text-gray-600">
-                <span class="font-bold">Maqsadi:</span> Yaponiya oliy ta’lim standartlari asosida global miqyosda
-                faoliyat olib boradigan malakali kadrlar tayyorlash.
+                <span class="font-bold">{{ $t('jdu_aim') }}</span> 
+                {{ $t('jdu_aim_description') }}
               </p>
               <p class="mt-4 text-lg leading-relaxed text-gray-600">
                 <span class="font-bold">
-                  JDUda o'qishning afzalliklari
+                  {{ $t('jdu_advantage') }}
                 </span>
               </p>
               <ul class="list-none mt-6">
@@ -106,7 +103,7 @@
                     </div>
                     <div>
                       <h4 class="text-gray-600">
-                        O‘zbekistonda turgan holda Yaponiya universiteti diplomini qo‘lga kiritish
+                        {{ $t('jdu_advantage_one') }}
                       </h4>
                     </div>
                   </div>
@@ -119,7 +116,9 @@
                           class="fab fa-html5"></i></span>
                     </div>
                     <div>
-                      <h4 class="text-gray-600">Yaponiyada ishga joylashish imkoniyati</h4>
+                      <h4 class="text-gray-600">
+                        {{ $t('jdu_advantage_two') }}
+                      </h4>
                     </div>
                   </div>
                 </li>
@@ -131,7 +130,9 @@
                           class="fab fa-html5"></i></span>
                     </div>
                     <div>
-                      <h4 class="text-gray-600">O‘qish davomida ishlab tajriba va daromad olish</h4>
+                      <h4 class="text-gray-600">
+                        {{ $t('jdu_advantage_three') }}
+                      </h4>
                     </div>
                   </div>
                 </li>
@@ -143,7 +144,9 @@
                           class="fab fa-html5"></i></span>
                     </div>
                     <div>
-                      <h4 class="text-gray-600">Birdaniga uchta diplomni qo‘lga kiritish</h4>
+                      <h4 class="text-gray-600">
+                        {{ $t('jdu_advantage_four') }}
+                      </h4>
                     </div>
                   </div>
                 </li>

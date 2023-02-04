@@ -11,6 +11,7 @@
       <div class="flex flex-wrap">
         <div class="w-full lg:w-6/12 px-4">
           <h4 class="text-3xl font-semibold">Aloqada bo'lib turaylik!</h4>
+          <h4 class="text-3xl font-semibold">{{ $t('welcome') }}</h4>
           <h5 class="text-lg mt-0 mb-2 text-gray-700">
             Bizni ushbu platformalarning istalganida toping.
           </h5>
@@ -87,14 +88,12 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faYoutube } from "@fortawesome/free-brands-svg-icons";
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 
 /* add icons to the library */
 library.add(faFacebook);
 library.add(faInstagram);
 library.add(faYoutube);
-library.add(faTwitter);
 
 let date = new Date().getFullYear();
 </script>

@@ -8,17 +8,19 @@ export default defineNuxtConfig({
     },
   },
   modules: ["@nuxtjs/i18n"],
+
   i18n: {
+    locales: ["uz", "jp"],
+    defaultLocale: "jp",
     vueI18n: {
-      legacy: false,
-      locale: "uz",
+      fallbackLocale: "jp",
       messages: {
         uz: {
-          welcome: "Xush kelibsiz!",
+          welcome: "Xush",
         },
         jp: {
-          welcome: "いらっしゃいませ！",
-        },
+          welcome: "Oskari",
+        }
       },
     },
   },

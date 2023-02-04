@@ -5,7 +5,7 @@
         <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
           href="#">JDU Group</a>
         <button
-          class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+          class="cursor-pointer text-xl text-white leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
           type="button" @click="toggleNavbar">
           <font-awesome-icon icon="fa-solid fa-bars" />
         </button>
@@ -54,6 +54,17 @@
               Bog'lanish</a>
           </li>
         </ul>
+
+        <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+          <li class="flex items-center">
+            <font-awesome-icon icon="fa-solid fa-language" class="text-white" />
+            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="#">
+              Japanese
+            </a>
+          </li>
+        </ul>
+
       </div>
     </div>
   </nav>
@@ -67,10 +78,12 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 /* import specific icons */
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faLanguage } from "@fortawesome/free-solid-svg-icons";
 
 
 /* add icons to the library */
 library.add(faBars);
+library.add(faLanguage);
 
 const showMenu = ref(false);
 

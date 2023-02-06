@@ -181,15 +181,14 @@
                 class="hidden text-center md:inline-flex items-center justify-center w-20 h-20 mb-6 shadow-lg rounded-full bg-pink-300">
                 <img alt="..." class="max-w-full rounded-full shadow-lg" src="/images/jdu_academy.jpg" />
               </div>
-              <h3 class="text-3xl font-semibold">JDU Academy</h3>
+              <h3 class="text-3xl font-semibold">{{ $t('jdu_academy_title') }}</h3>
               <p class="mt-4 text-lg leading-relaxed text-gray-600">
-                <span class="font-bold">Maqsadi:</span> JDUda o‘qishni maqsad qilgan abituriyentlar uchun tayyorlov
-                kurslarini olib boradi. Shuningdek, respublikamizning boshqa universitetlarida o‘qishni maqsad qilgan
-                abituriyentlar ham bizning akademiyada o‘zlarini qiziqtirgan fanlardan tahsil olishlari mumkin.
+                <span class="font-bold">{{ $t('jdu_academy_aim') }}</span> 
+                {{ $t('jdu_academy_aim_description') }}
               </p>
               <p class="mt-4 text-lg leading-relaxed text-gray-600">
                 <span class="font-bold">
-                  O'qitiladigan fanlar
+                  {{ $t('jdu_academy_subjects_title') }}
                 </span>
               </p>
               <ul class="list-none mt-6">
@@ -202,7 +201,7 @@
                     </div>
                     <div>
                       <h4 class="text-gray-600">
-                        Matematika
+                        {{ $t('jdu_academy_subject_one') }}
                       </h4>
                     </div>
                   </div>
@@ -215,7 +214,9 @@
                           class="fab fa-html5"></i></span>
                     </div>
                     <div>
-                      <h4 class="text-gray-600">Yapon tili</h4>
+                      <h4 class="text-gray-600">
+                        {{ $t('jdu_academy_subject_two') }}
+                      </h4>
                     </div>
                   </div>
                 </li>

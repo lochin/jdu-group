@@ -85,7 +85,7 @@
               </div>
               <h3 class="text-3xl font-semibold">{{ $t('jdu_title') }}</h3>
               <p class="mt-4 text-lg leading-relaxed text-gray-600">
-                <span class="font-bold">{{ $t('jdu_aim') }}</span> 
+                <span class="font-bold">{{ $t('jdu_aim') }}</span>
                 {{ $t('jdu_aim_description') }}
               </p>
               <p class="mt-4 text-lg leading-relaxed text-gray-600">
@@ -183,7 +183,7 @@
               </div>
               <h3 class="text-3xl font-semibold">{{ $t('jdu_academy_title') }}</h3>
               <p class="mt-4 text-lg leading-relaxed text-gray-600">
-                <span class="font-bold">{{ $t('jdu_academy_aim') }}</span> 
+                <span class="font-bold">{{ $t('jdu_academy_aim') }}</span>
                 {{ $t('jdu_academy_aim_description') }}
               </p>
               <p class="mt-4 text-lg leading-relaxed text-gray-600">
@@ -257,14 +257,14 @@
                 class="hidden text-center md:inline-flex items-center justify-center w-20 h-20 mb-6 shadow-lg rounded-full bg-pink-300">
                 <img alt="..." class="max-w-full rounded-full shadow-lg" src="/images/jdu_kids_logo.jpg" />
               </div>
-              <h3 class="text-3xl font-semibold">JDU Kids</h3>
+              <h3 class="text-3xl font-semibold">{{ $t('jdu_kids_title') }}</h3>
               <p class="mt-4 text-lg leading-relaxed text-gray-600">
-                <span class="font-bold">Maqsadi:</span> Yaponiya ta'lim standartlari asosida O‘zbekiston yoshlari
-                rivojiga hissa qo'shish.
+                <span class="font-bold">{{ $t('jdu_kids_aim') }}</span>
+                {{ $t('jdu_kids_aim_description') }}
               </p>
               <p class="mt-4 text-lg leading-relaxed text-gray-600">
                 <span class="font-bold">
-                  O'qitiladigan fanlar
+                  {{ $t('jdu_kids_subjects_title') }}
                 </span>
               </p>
               <ul class="list-none mt-6">
@@ -277,7 +277,7 @@
                     </div>
                     <div>
                       <h4 class="text-gray-600">
-                        Sun'iy intellektga asoslangan mental arifmetika
+                        {{ $t('jdu_kids_subject_one') }}
                       </h4>
                     </div>
                   </div>
@@ -290,7 +290,7 @@
                           class="fab fa-html5"></i></span>
                     </div>
                     <div>
-                      <h4 class="text-gray-600">Kids English</h4>
+                      <h4 class="text-gray-600">{{ $t('jdu_kids_subject_two') }}</h4>
                     </div>
                   </div>
                 </li>
@@ -302,7 +302,7 @@
                           class="fab fa-html5"></i></span>
                     </div>
                     <div>
-                      <h4 class="text-gray-600">Matematika (tayyorgarlik jarayonida)</h4>
+                      <h4 class="text-gray-600">{{ $t('jdu_kids_subject_three') }}</h4>
                     </div>
                   </div>
                 </li>
@@ -314,7 +314,7 @@
                           class="fab fa-html5"></i></span>
                     </div>
                     <div>
-                      <h4 class="text-gray-600">Mantiqiy fikrlash (tayyorgarlik jarayonida)</h4>
+                      <h4 class="text-gray-600">{{ $t('jdu_kids_subject_four') }}</h4>
                     </div>
                   </div>
                 </li>
@@ -349,14 +349,14 @@
                 class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300">
                 <font-awesome-icon icon="fa-solid fa-rocket" class="w-6 h-6" />
               </div>
-              <h3 class="text-3xl font-semibold">JDU Systems</h3>
+              <h3 class="text-3xl font-semibold">{{ $t('jdu_systems_title') }}</h3>
               <p class="mt-4 text-lg leading-relaxed text-gray-600">
-                <span class="font-bold">Maqsadi:</span>
-                Yaponiya kompaniyalari uchun IT xizmatini taklif etish
+                <span class="font-bold">{{ $t('jdu_systems_aim') }}</span>
+                {{ $t('jdu_systems_aim_description') }}
               </p>
               <p class="mt-4 text-lg leading-relaxed text-gray-600">
                 <span class="font-bold">
-                  Taklif etiladigan xizmat turlari
+                  {{ $t('jdu_systems_services_title') }}
                 </span>
               </p>
               <ul class="list-none mt-6">
@@ -369,7 +369,7 @@
                     </div>
                     <div>
                       <h4 class="text-gray-600">
-                        Dasturlash
+                        {{ $t('jdu_systems_service_one') }}
                       </h4>
                     </div>
                   </div>
@@ -382,14 +382,14 @@
                           class="fab fa-html5"></i></span>
                     </div>
                     <div>
-                      <h4 class="text-gray-600">Dizayn</h4>
+                      <h4 class="text-gray-600">{{ $t('jdu_systems_service_two') }}</h4>
                     </div>
                   </div>
                 </li>
               </ul>
               <p class="mt-4 text-lg leading-relaxed text-gray-600">
                 <span class="font-bold">
-                  JDU Systems afzalliklari
+                  {{ $t('jdu_systems_advantages_title') }}
                 </span>
               </p>
               <ul class="list-none mt-6">
@@ -402,7 +402,7 @@
                     </div>
                     <div>
                       <h4 class="text-gray-600">
-                        Yapon tili va IT bilimlariga ega talabalarning ko‘pligi
+                        {{ $t('jdu_systems_advantage_one') }}
                       </h4>
                     </div>
                   </div>
@@ -415,8 +415,9 @@
                           class="fab fa-html5"></i></span>
                     </div>
                     <div>
-                      <h4 class="text-gray-600">Yapon xodimlarining Bridge sifatida loyiha boshqaruvchisi bo‘lib
-                        biriktirilganlig</h4>
+                      <h4 class="text-gray-600">
+                        {{ $t('jdu_systems_advantage_two') }}
+                      </h4>
                     </div>
                   </div>
                 </li>
@@ -428,7 +429,9 @@
                           class="fab fa-html5"></i></span>
                     </div>
                     <div>
-                      <h4 class="text-gray-600">Yaponcha ishlash usuli va ish sifati</h4>
+                      <h4 class="text-gray-600">
+                        {{ $t('jdu_systems_advantage_three') }}
+                      </h4>
                     </div>
                   </div>
                 </li>

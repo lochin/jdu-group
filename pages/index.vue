@@ -676,9 +676,9 @@
               <img alt="..." src="/images/ceo.jpg" class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px" />
               <div class="pt-6 text-center">
-                <h5 class="text-xl font-bold">Hiroaki Haga</h5>
+                <h5 class="text-xl font-bold">{{ $t('management_head_one_name')}}</h5>
                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                  Muassis korxona <br>"Digital Knowledge" rahbari
+                  {{ $t('management_head_one_occupation') }}
                 </p>
                 <div class="mt-6">
                   <button class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
@@ -698,9 +698,9 @@
               <img alt="..." src="/images/rector_icon.jpg" class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px" />
               <div class="pt-6 text-center">
-                <h5 class="text-xl font-bold">Mamajonov Ravshanbek</h5>
+                <h5 class="text-xl font-bold">{{ $t('management_head_two_name')}}</h5>
                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                  JDU Group rahbari
+                  {{ $t('management_head_two_occupation')}}
                 </p>
                 <div class="mt-6">
                   <button class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"

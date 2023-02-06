@@ -88,6 +88,15 @@ export default defineNuxtConfig({
           
           management_title: "Boshqaruv",
           
+          contact_title: "Biz bilan bog'lanish",
+          contact_address: "Manzil",
+          contact_phone: "Telefon",
+          contact_email: "Elektron pochta",
+
+          footer_title: "Biz bilan aloqa",
+          footer_description: "Bizni ushbu ijtimoiy tarmoqlardan topishingiz mumkin.",
+          footer_more_info: "Ko'proq ma'lumot",
+          footer_branches: "Tarmoqlarimiz"
         },
         jp: {
           menu_jdu_group: "JDUグループ",
@@ -160,6 +169,16 @@ export default defineNuxtConfig({
           jdu_consulting_chief_work_four: "Japan Digital University/CEO",
           
           management_title: "役員役員",
+          
+          contact_title: "お問い合わせ",
+          contact_address: "住所",
+          contact_phone: "電話  ",
+          contact_email: "メール",
+
+          footer_title: "お問い合わせ",
+          footer_description: "これらのソーシャルネットワークで私たちを見つけることができます。",
+          footer_more_info: "詳しくは",
+          footer_branches: "私たちのネットワーク"
         }
       },
     },

@@ -182,7 +182,7 @@ export default defineNuxtConfig({
           
           contact_title: "お問い合わせ",
           contact_address: "住所",
-          contact_full_address: "Toshkent shahar, Chilonzor tumani, Kichik Halqa Yo'li ko'chasi, 50.",
+          contact_full_address: "Tashkent市、Chilonzor地域、Kichik Halqa Yo'li道、50。",
           contact_phone: "電話",
           contact_email: "メール",
 

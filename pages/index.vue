@@ -153,7 +153,7 @@
               </ul>
             </div>
             <div class="my-8">
-              <a href="https://jdu.uz" type="button"
+              <a href="https://jdu.uz" type="button" target="_blank"
                 class="cursor-pointer inline-block px-6 py-2.5 bg-gray-200 text-gray-700 font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out">
                 {{ $t('more_button_text') }}
               </a>
@@ -742,7 +742,7 @@
                 {{ $t('contact_address') }}
               </h5>
               <p class="mt-1 text-sm text-gray-500 font-semibold">
-                Toshkent shahar, Chilonzor tumani, Kichik Halqa Yo'li ko'chasi, 50.
+                {{ $t('contact_full_address') }}
               </p>
               <h5 class="text-xl text-white font-bold mt-4">
                 {{ $t('contact_phone') }}

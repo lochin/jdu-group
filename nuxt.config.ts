@@ -95,6 +95,7 @@ export default defineNuxtConfig({
           
           contact_title: "Biz bilan bog'lanish",
           contact_address: "Manzil",
+          contact_full_address: "Toshkent shahar, Chilonzor tumani, Kichik Halqa Yo'li ko'chasi, 50.",
           contact_phone: "Telefon",
           contact_email: "Elektron pochta",
 
@@ -175,12 +176,13 @@ export default defineNuxtConfig({
           
           management_title: "役員役員",
           management_head_one_name: "Hiroaki Haga",
-          management_head_one_occupation: 'Muassis korxona "Digital Knowledge" rahbari',
+          management_head_one_occupation: '創業者は株式会社デジタル・ナレッジの社長',
           management_head_two_name: "Mamajonov Ravshanbek",
           management_head_two_occupation: 'JDU GROUP 社長',
           
           contact_title: "お問い合わせ",
           contact_address: "住所",
+          contact_full_address: "Toshkent shahar, Chilonzor tumani, Kichik Halqa Yo'li ko'chasi, 50.",
           contact_phone: "電話",
           contact_email: "メール",
 

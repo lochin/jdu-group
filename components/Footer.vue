@@ -17,17 +17,17 @@
             {{ $t('footer_description') }}
           </h5>
           <div class="mt-6">
-            <a href="https://www.facebook.com/jdu.uz/"
+            <a href="https://www.facebook.com/jdu.uz/" target="_blank"
               class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
               type="button">
               <font-awesome-icon icon="fa-brands fa-facebook" class="flex" />
             </a>
-            <a href="https://www.instagram.com/jdu.uz/"
+            <a href="https://www.instagram.com/jdu.uz/" target="_blank"
               class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
               type="button">
               <font-awesome-icon icon="fa-brands fa-instagram" class="flex" />
             </a>
-            <a href="https://www.youtube.com/c/JapanDigitalUniversity"
+            <a href="https://www.youtube.com/c/JapanDigitalUniversity" target="_blank"
               class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
               type="button">
               <font-awesome-icon icon="fa-brands fa-youtube" class="flex" />

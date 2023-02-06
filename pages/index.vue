@@ -346,8 +346,8 @@
           <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
             <div class="md:pr-12">
               <div
-                class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300">
-                <font-awesome-icon icon="fa-solid fa-rocket" class="w-6 h-6" />
+                class="text-green-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-green-300">
+                <font-awesome-icon icon="fa-solid fa-code" class="w-6 h-6" />
               </div>
               <h3 class="text-3xl font-semibold">{{ $t('jdu_systems_title') }}</h3>
               <p class="mt-4 text-lg leading-relaxed text-gray-600">
@@ -364,7 +364,7 @@
                   <div class="flex items-center">
                     <div>
                       <span
-                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-green-600 bg-green-200 mr-3"><i
                           class="fas fa-fingerprint"></i></span>
                     </div>
                     <div>
@@ -378,7 +378,7 @@
                   <div class="flex items-center">
                     <div>
                       <span
-                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-green-600 bg-green-200 mr-3"><i
                           class="fab fa-html5"></i></span>
                     </div>
                     <div>
@@ -397,7 +397,7 @@
                   <div class="flex items-center">
                     <div>
                       <span
-                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-green-600 bg-green-200 mr-3"><i
                           class="fas fa-fingerprint"></i></span>
                     </div>
                     <div>
@@ -411,7 +411,7 @@
                   <div class="flex items-center">
                     <div>
                       <span
-                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-green-600 bg-green-200 mr-3"><i
                           class="fab fa-html5"></i></span>
                     </div>
                     <div>
@@ -425,7 +425,7 @@
                   <div class="flex items-center">
                     <div>
                       <span
-                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-green-600 bg-green-200 mr-3"><i
                           class="fab fa-html5"></i></span>
                     </div>
                     <div>
@@ -791,6 +791,7 @@ import { faUserGroup } from "@fortawesome/free-solid-svg-icons";
 import { faMedal } from "@fortawesome/free-solid-svg-icons";
 import { faUserSecret } from "@fortawesome/free-solid-svg-icons";
 import { faLightbulb } from "@fortawesome/free-solid-svg-icons";
+import { faCode } from "@fortawesome/free-solid-svg-icons";
 
 import { faGoogle } from "@fortawesome/free-brands-svg-icons";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
@@ -806,6 +807,7 @@ library.add(faUserGroup);
 library.add(faMedal);
 library.add(faUserSecret);
 library.add(faLightbulb);
+library.add(faCode);
 
 library.add(faGoogle);
 library.add(faFacebook);

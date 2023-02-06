@@ -2,8 +2,10 @@
   <nav class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3">
     <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
       <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-        <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
-          href="#">{{ $t('menu_jdu_group') }}</a>
+        <nuxt-link :to="{ hash: '#group' }" :external="true"
+          class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white">
+          {{ $t('menu_jdu_group') }}
+        </nuxt-link>
         <button
           class="cursor-pointer text-xl text-white leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
           type="button" @click="toggleNavbar">
@@ -28,29 +30,30 @@
             </nuxt-link>
           </li>
           <li class="flex items-center">
-            <nuxt-link :to="{ hash: '#kids' }" :external="true" class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-              >
+            <nuxt-link :to="{ hash: '#kids' }" :external="true"
+              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
               <i class="lg:text-gray-300 text-gray-500 far fa-file-alt text-lg leading-lg mr-2"></i>
               {{ $t('menu_jdu_kids') }}
             </nuxt-link>
           </li>
           <li class="flex items-center">
-            <nuxt-link :to="{ hash: '#systems' }" :external="true" class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-              >
+            <nuxt-link :to="{ hash: '#systems' }" :external="true"
+              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
               <i class="lg:text-gray-300 text-gray-500 far fa-file-alt text-lg leading-lg mr-2"></i>
               {{ $t('menu_jdu_systems') }}
             </nuxt-link>
           </li>
           <li class="flex items-center">
-            <nuxt-link :to="{ hash: '#consulting' }" :external="true" class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-              >
+            <nuxt-link :to="{ hash: '#consulting' }" :external="true"
+              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
               <i class="lg:text-gray-300 text-gray-500 far fa-file-alt text-lg leading-lg mr-2"></i>
               {{ $t('menu_jdu_consulting') }}
             </nuxt-link>
           </li>
           <li class="flex items-center">
-            <nuxt-link :to="{ hash: '#contact' }" :external="true" class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-              ><i class="lg:text-gray-300 text-gray-500 far fa-file-alt text-lg leading-lg mr-2"></i>
+            <nuxt-link :to="{ hash: '#contact' }" :external="true"
+              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
+              <i class="lg:text-gray-300 text-gray-500 far fa-file-alt text-lg leading-lg mr-2"></i>
               {{ $t('menu_contact_info') }}
             </nuxt-link>
           </li>

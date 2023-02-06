@@ -10,9 +10,11 @@
     <div class="container mx-auto px-4">
       <div class="flex flex-wrap">
         <div class="w-full lg:w-6/12 px-4">
-          <h4 class="text-3xl font-semibold">Biz bilan aloqa</h4>
+          <h4 class="text-3xl font-semibold">
+            {{ $t('footer_title') }}
+          </h4>
           <h5 class="text-lg mt-0 mb-2 text-gray-700">
-            Bizni ushbu ijtimoiy tarmoqlardan topishingiz mumkin.
+            {{ $t('footer_description') }}
           </h5>
           <div class="mt-6">
             <a href="https://www.facebook.com/jdu.uz/"
@@ -35,30 +37,46 @@
         <div class="w-full lg:w-6/12 px-4">
           <div class="flex flex-wrap items-top mb-6">
             <div class="w-full lg:w-4/12 px-4 ml-auto">
-              <span class="block uppercase text-gray-600 text-sm font-semibold mb-2">Ko'proq ma'lumot</span>
+              <span class="block uppercase text-gray-600 text-sm font-semibold mb-2">
+                {{ $t('footer_more_info') }}
+              </span>
               <ul class="list-unstyled">
                 <li>
-                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#group">JDU Group</a>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#group">
+                    {{ $t('menu_jdu_group') }}
+                  </a>
                 </li>
               </ul>
             </div>
             <div class="w-full lg:w-4/12 px-4">
-              <span class="block uppercase text-gray-600 text-sm font-semibold mb-2">Tarmoqlarimiz</span>
+              <span class="block uppercase text-gray-600 text-sm font-semibold mb-2">
+                {{ $t('footer_branches') }}
+              </span>
               <ul class="list-unstyled">
                 <li>
-                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#university">JDU University</a>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#university">
+                    {{ $t('menu_jdu_university') }}
+                  </a>
                 </li>
                 <li>
-                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#academy">JDU Academy</a>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#academy">
+                    {{ $t('menu_jdu_academy') }}
+                  </a>
                 </li>
                 <li>
-                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#kids">JDU Kids</a>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#kids">
+                    {{ $t('menu_jdu_kids') }}
+                  </a>
                 </li>
                 <li>
-                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#systems">JDU Systems</a>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#systems">
+                    {{ $t('menu_jdu_systems') }}
+                  </a>
                 </li>
                 <li>
-                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#consulting">JDU Consulting</a>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#consulting">
+                    {{ $t('menu_jdu_consulting') }}
+                  </a>
                 </li>
               </ul>
             </div>

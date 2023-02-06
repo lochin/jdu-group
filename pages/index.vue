@@ -731,20 +731,28 @@
       </div>
 
       <div class="container mx-auto px-2 lg:pt-12 lg:pb-24">
-        <h2 class="text-4xl text-white text-center font-semibold pb-12">Biz bilan bog'lanish</h2>
+        <h2 class="text-4xl text-white text-center font-semibold pb-12">
+          {{ $t('contact_title') }}
+        </h2>
         <div class="flex flex-wrap justify-center">
           <div class="w-full md:w-6/12 lg:w-6/12 lg:mb-0 mb-12 px-4">
 
             <div class="pt-6 px-32 text-center">
-              <h5 class="text-xl text-white font-bold">Manzil</h5>
+              <h5 class="text-xl text-white font-bold">
+                {{ $t('contact_address') }}
+              </h5>
               <p class="mt-1 text-sm text-gray-500 font-semibold">
                 Toshkent shahar, Chilonzor tumani, Kichik Halqa Yo'li ko'chasi, 50.
               </p>
-              <h5 class="text-xl text-white font-bold mt-4">Telefon</h5>
+              <h5 class="text-xl text-white font-bold mt-4">
+                {{ $t('contact_phone') }}
+              </h5>
               <p class="mt-1 text-sm text-gray-500 font-semibold">
                 (71) 200-05-95
               </p>
-              <h5 class="text-xl text-white font-bold mt-4">Elektron pochta</h5>
+              <h5 class="text-xl text-white font-bold mt-4">
+                {{ $t('contact_email') }}
+              </h5>
               <p class="mt-1 text-sm text-gray-500 font-semibold">
                 info@jdu.uz
               </p>

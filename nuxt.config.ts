@@ -16,6 +16,15 @@ export default defineNuxtConfig({
       fallbackLocale: "jp",
       messages: {
         uz: {
+          menu_jdu_group: "JDU GROUP",
+          menu_jdu_university: "JDU UNIVERSITY",
+          menu_jdu_academy: "JDU ACADEMY",
+          menu_jdu_kids: "JDU KIDS",
+          menu_jdu_systems: "JDU SYSTEMS",
+          menu_jdu_consulting: "JDU CONSULTING",
+          menu_contact_info: "BOG‘LANISH",
+
+
           more_button_text: "Batafsil...",
           motto: "Yaxshiroq erta uchun",
           main_description: "JDU bu Yaponiyaning Digital Knowledge Co.Ltd kompaniyasi muassisligida tashkil etilgan O‘zbekistondagi tashkilotdir. O‘zbekiston hamda Yaponiya o‘rtasida ko‘prik vazifasini o‘tab, barcha aloqador tomonlarning bugunidan ertasi yaxshiroq bo‘lishiga hissa qo‘shishni maqsad qilib olgan.",
@@ -77,8 +86,18 @@ export default defineNuxtConfig({
           jdu_consulting_chief_work_three: "Digital Knowledge Co.,Ltd/Xalqaro bo`lim",
           jdu_consulting_chief_work_four: "Japan Digital University/CEO",
           
+          management_title: "Boshqaruv",
+          
         },
         jp: {
+          menu_jdu_group: "JDUグループ",
+          menu_jdu_university: "JDU大学",
+          menu_jdu_academy: "JDUアカデミー",
+          menu_jdu_kids: "JDUキッズ",
+          menu_jdu_systems: "JDUシステムズ",
+          menu_jdu_consulting: "JDUコンサルティング",
+          menu_contact_info: "連絡先",
+
           more_button_text: "もっと...",
           motto: "より良い明日へ",
           main_description: "JDUは、日本企業デジタルナレッジ株式会社によって設立されたウズベキスタンの組織である。 ウズベキスタンと日本の架け橋として、ご協力の各位のために、より良い明日になるのにサポートすることを目指している。",
@@ -122,7 +141,7 @@ export default defineNuxtConfig({
           jdu_systems_advantage_one: "日本語やITスキルを身につけた学生が多数在籍",
           jdu_systems_advantage_two: "ブリッジプロジェクトマネージャーとして日本人社員を配置",
           jdu_systems_advantage_three: "日本の働き方と仕事の質",
-
+          
           jdu_consulting_title: "JDUコンサルティング",
           jdu_consulting_services_title: "サービスの種類:",
           jdu_consulting_service_one: "市場調査",
@@ -139,7 +158,8 @@ export default defineNuxtConfig({
           jdu_consulting_chief_work_two: "Nissan Motors/Xalqaro marketing",
           jdu_consulting_chief_work_three: "Digital Knowledge Co.,Ltd/Xalqaro bo`lim",
           jdu_consulting_chief_work_four: "Japan Digital University/CEO",
-
+          
+          management_title: "役員役員",
         }
       },
     },

@@ -1,7 +1,7 @@
 <template>
   <main id="group">
     <div class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 75vh">
-      <div class="absolute top-0 w-full h-full bg-center bg-cover" style="background-image: url('/images/cover.jpg');">
+      <div class="absolute top-0 w-full h-full bg-center bg-cover" style="background-image: url('/images/cover.jpg')">
         <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-black"></span>
       </div>
       <div class="container relative mx-auto">
@@ -531,9 +531,124 @@
                   </div>
                 </li>
               </ul>
-              <p class="mt-4 text-lg leading-relaxed text-gray-600">
-                Chief Consultant Profile
+              <p class="mt-4 text-lg leading-relaxed text-gray-600 font-bold">
+                Bosh maslahatchi: Mamajonov Ravshanbek
               </p>
+
+              <p class="mt-6 text-lg leading-relaxed text-gray-600">
+                <span class="font-bold">
+                  {{ $t('jdu_consulting_chief_education_title') }}
+                </span>
+              </p>
+              <ul class="list-none mt-1">
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                          class="fas fa-fingerprint"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">
+                        {{ $t('jdu_consulting_chief_education_one') }}
+                      </h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                          class="fab fa-html5"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">
+                        {{ $t('jdu_consulting_chief_education_two') }}
+                      </h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                          class="fab fa-html5"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">
+                        {{ $t('jdu_consulting_chief_education_three') }}
+                      </h4>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+
+              <p class="mt-6 text-lg leading-relaxed text-gray-600">
+                <span class="font-bold">
+                  {{ $t('jdu_consulting_chief_work_title') }}
+                </span>
+              </p>
+              <ul class="list-none mt-1">
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                          class="fas fa-fingerprint"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">
+                        {{ $t('jdu_consulting_chief_work_one') }}
+                      </h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                          class="fab fa-html5"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">
+                        {{ $t('jdu_consulting_chief_work_two') }}
+                      </h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                          class="fab fa-html5"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">
+                        {{ $t('jdu_consulting_chief_work_three') }}
+                      </h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                          class="fab fa-html5"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">
+                        {{ $t('jdu_consulting_chief_work_four') }}
+                      </h4>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+
             </div>
             <div class="my-8">
               <button type="button"
@@ -546,16 +661,13 @@
       </div>
     </section>
 
+    <!-- Management Section -->
+
     <section class="pb-16">
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap justify-center text-center mb-24">
           <div class="w-full lg:w-6/12 px-4">
-            <h2 class="text-4xl font-semibold">Mana bizning qahramonlarimiz</h2>
-            <p class="text-lg leading-relaxed m-4 text-gray-600">
-              Shuningdek, o'qishni tamomlashdan oldin JDU vositachiligi yordamida Yaponiyaning nufuzli kompaniyalaridan
-              biriga ishga kirish hal qilinadi va o'qish tamomlangach Yaponiyaga borib, IT muhandisi sifatida yuqori
-              maoshli zamonaviy ish joylarida ishlash mumkin bo'ladi.
-            </p>
+            <h2 class="text-4xl font-bold text-gray-600">{{ $t('management_title') }}</h2>
           </div>
         </div>
         <div class="flex flex-wrap justify-center">
@@ -626,7 +738,7 @@
             <div class="pt-6 px-32 text-center">
               <h5 class="text-xl text-white font-bold">Manzil</h5>
               <p class="mt-1 text-sm text-gray-500 font-semibold">
-                100106, Toshkent shahri, Uchtepa tumani, Kichik Halqa Yo'li 21A (Jahon tillari universiteti ichida)
+                Toshkent shahar, Chilonzor tumani, Kichik Halqa Yo'li ko'chasi, 50.
               </p>
               <h5 class="text-xl text-white font-bold mt-4">Telefon</h5>
               <p class="mt-1 text-sm text-gray-500 font-semibold">

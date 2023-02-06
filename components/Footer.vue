@@ -12,7 +12,7 @@
         <div class="w-full lg:w-6/12 px-4">
           <h4 class="text-3xl font-semibold">Biz bilan aloqa</h4>
           <h5 class="text-lg mt-0 mb-2 text-gray-700">
-            Bizni ushbu platformalarning istalganida toping.
+            Bizni ushbu ijtimoiy tarmoqlardan topishingiz mumkin.
           </h5>
           <div class="mt-6">
             <a href="https://www.facebook.com/jdu.uz/"

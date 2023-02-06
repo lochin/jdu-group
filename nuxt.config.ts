@@ -16,6 +16,7 @@ export default defineNuxtConfig({
       fallbackLocale: "jp",
       messages: {
         uz: {
+          more_button_text: "Batafsil...",
           motto: "Yaxshiroq erta uchun",
           main_description: "JDU bu Yaponiyaning Digital Knowledge Co.Ltd kompaniyasi muassisligida tashkil etilgan O‘zbekistondagi tashkilotdir. O‘zbekiston hamda Yaponiya o‘rtasida ko‘prik vazifasini o‘tab, barcha aloqador tomonlarning bugunidan ertasi yaxshiroq bo‘lishiga hissa qo‘shishni maqsad qilib olgan.",
           education_card_title: "Ta'lim",
@@ -59,10 +60,26 @@ export default defineNuxtConfig({
           jdu_systems_advantage_two: "Yapon xodimlarining Bridge sifatida loyiha boshqaruvchisi bo‘lib biriktirilganligi",
           jdu_systems_advantage_three: "Yaponcha ishlash usuli va ish sifati",
 
-
-
+          jdu_consulting_title: "JDU Consulting",
+          jdu_consulting_services_title: "Xizmat turlari:",
+          jdu_consulting_service_one: "Market research",
+          jdu_consulting_service_two: "Marketing",
+          jdu_consulting_service_three: "Accounting",
+          jdu_consulting_service_four: "Market entry support",
+          jdu_consulting_chief_consultant_profile: "Chief Consultant Profile",
+          jdu_consulting_chief_education_title: "Ta’lim",
+          jdu_consulting_chief_education_one: "Toshkent Islom Universiteti/Xalqaro Iqtisodiy Munosabatlar",
+          jdu_consulting_chief_education_two: "Yaponiya Xalqaro Universiteti/Xalqaro Munosabatlar",
+          jdu_consulting_chief_education_three: "Oksford Universiteti/ Biznes boshqaruv/MBA",
+          jdu_consulting_chief_work_title: "Mehnat faoliyati",
+          jdu_consulting_chief_work_one: "Otsuka Pharmaceutical/Xalqaro biznesni rivojlantirish",
+          jdu_consulting_chief_work_two: "Nissan Motors/Xalqaro marketing",
+          jdu_consulting_chief_work_three: "Digital Knowledge Co.,Ltd/Xalqaro bo`lim",
+          jdu_consulting_chief_work_four: "Japan Digital University/CEO",
+          
         },
         jp: {
+          more_button_text: "もっと...",
           motto: "より良い明日へ",
           main_description: "JDUは、日本企業デジタルナレッジ株式会社によって設立されたウズベキスタンの組織である。 ウズベキスタンと日本の架け橋として、ご協力の各位のために、より良い明日になるのにサポートすることを目指している。",
           education_card_title: "教育",
@@ -106,6 +123,22 @@ export default defineNuxtConfig({
           jdu_systems_advantage_two: "ブリッジプロジェクトマネージャーとして日本人社員を配置",
           jdu_systems_advantage_three: "日本の働き方と仕事の質",
 
+          jdu_consulting_title: "JDUコンサルティング",
+          jdu_consulting_services_title: "サービスの種類:",
+          jdu_consulting_service_one: "市場調査",
+          jdu_consulting_service_two: "マーケティング",
+          jdu_consulting_service_three: "会計",
+          jdu_consulting_service_four: "市場参入支援",
+          jdu_consulting_chief_consultant_profile: "Chief Consultant Profile",
+          jdu_consulting_chief_education_title: "Ta’lim",
+          jdu_consulting_chief_education_one: "Toshkent Islom Universiteti/Xalqaro Iqtisodiy Munosabatlar",
+          jdu_consulting_chief_education_two: "Yaponiya Xalqaro Universiteti/Xalqaro Munosabatlar",
+          jdu_consulting_chief_education_three: "Oksford Universiteti/ Biznes boshqaruv/MBA",
+          jdu_consulting_chief_work_title: "Mehnat faoliyati",
+          jdu_consulting_chief_work_one: "Otsuka Pharmaceutical/Xalqaro biznesni rivojlantirish",
+          jdu_consulting_chief_work_two: "Nissan Motors/Xalqaro marketing",
+          jdu_consulting_chief_work_three: "Digital Knowledge Co.,Ltd/Xalqaro bo`lim",
+          jdu_consulting_chief_work_four: "Japan Digital University/CEO",
 
         }
       },

@@ -155,7 +155,7 @@
             <div class="my-8">
               <a href="https://jdu.uz" type="button"
                 class="cursor-pointer inline-block px-6 py-2.5 bg-gray-200 text-gray-700 font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out">
-                Batafsil...
+                {{ $t('more_button_text') }}
               </a>
             </div>
           </div>
@@ -225,7 +225,7 @@
             <div class="my-8">
               <button type="button"
                 class="inline-block px-6 py-2.5 bg-gray-200 text-gray-700 font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out">
-                Batafsil...
+                {{ $t('more_button_text') }}
               </button>
             </div>
           </div>
@@ -323,7 +323,7 @@
             <div class="my-8">
               <button type="button"
                 class="inline-block px-6 py-2.5 bg-gray-200 text-gray-700 font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out">
-                Batafsil...
+                {{ $t('more_button_text') }}
               </button>
             </div>
           </div>
@@ -440,7 +440,7 @@
             <div class="my-8">
               <button type="button"
                 class="inline-block px-6 py-2.5 bg-gray-200 text-gray-700 font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out">
-                Batafsil...
+                {{ $t('more_button_text') }}
               </button>
             </div>
           </div>
@@ -472,10 +472,7 @@
                 class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300">
                 <font-awesome-icon icon="fa-solid fa-rocket" class="w-6 h-6" />
               </div>
-              <h3 class="text-3xl font-semibold">JDU Consulting</h3>
-              <p class="mt-4 text-lg leading-relaxed text-gray-600">
-                Chief Consultant Profile
-              </p>
+              <h3 class="text-3xl font-semibold">{{ $t('jdu_consulting_title') }}</h3>
               <ul class="list-none mt-6">
                 <li class="py-2">
                   <div class="flex items-center">
@@ -486,7 +483,7 @@
                     </div>
                     <div>
                       <h4 class="text-gray-600">
-                        Market research
+                        {{ $t('jdu_consulting_service_one') }}
                       </h4>
                     </div>
                   </div>
@@ -499,7 +496,9 @@
                           class="fab fa-html5"></i></span>
                     </div>
                     <div>
-                      <h4 class="text-gray-600">Marketing </h4>
+                      <h4 class="text-gray-600">
+                        {{ $t('jdu_consulting_service_two') }}
+                      </h4>
                     </div>
                   </div>
                 </li>
@@ -511,7 +510,9 @@
                           class="far fa-paper-plane"></i></span>
                     </div>
                     <div>
-                      <h4 class="text-gray-600">Accounting</h4>
+                      <h4 class="text-gray-600">
+                        {{ $t('jdu_consulting_service_three') }}
+                      </h4>
                     </div>
                   </div>
                 </li>
@@ -523,16 +524,21 @@
                           class="far fa-paper-plane"></i></span>
                     </div>
                     <div>
-                      <h4 class="text-gray-600">Market entry support</h4>
+                      <h4 class="text-gray-600">
+                        {{ $t('jdu_consulting_service_four') }}
+                      </h4>
                     </div>
                   </div>
                 </li>
               </ul>
+              <p class="mt-4 text-lg leading-relaxed text-gray-600">
+                Chief Consultant Profile
+              </p>
             </div>
             <div class="my-8">
               <button type="button"
                 class="inline-block px-6 py-2.5 bg-gray-200 text-gray-700 font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out">
-                Batafsil...
+                {{ $t('more_button_text') }}
               </button>
             </div>
           </div>

@@ -10,7 +10,7 @@
     <div class="container mx-auto px-4">
       <div class="flex flex-wrap">
         <div class="w-full lg:w-6/12 px-4">
-          <h4 class="text-3xl font-semibold">Aloqada bo'lib turaylik!</h4>
+          <h4 class="text-3xl font-semibold">Biz bilan aloqa</h4>
           <h5 class="text-lg mt-0 mb-2 text-gray-700">
             Bizni ushbu platformalarning istalganida toping.
           </h5>

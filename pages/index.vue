@@ -179,7 +179,7 @@
             <div class="md:pr-12">
               <div
                 class="hidden text-center md:inline-flex items-center justify-center w-20 h-20 mb-6 shadow-lg rounded-full bg-pink-300">
-                <img alt="..." class="max-w-full rounded-full shadow-lg" src="/images/jdu_academy.jpg" />
+                <img alt="..." class="max-w-full rounded-full shadow-lg" src="/images/academy.jpg" />
               </div>
               <h3 class="text-3xl font-semibold">{{ $t('jdu_academy_title') }}</h3>
               <p class="mt-4 text-lg leading-relaxed text-gray-600">

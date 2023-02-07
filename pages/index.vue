@@ -75,7 +75,7 @@
       <div class="container mx-auto px-4">
         <div class="items-center flex flex-wrap">
           <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
-            <img alt="..." class="max-w-full rounded-lg shadow-lg" src="/images/cover.jpg" />
+            <img alt="..." class="max-w-full rounded-lg shadow-lg" src="/images/university.jpg" />
           </div>
           <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
             <div class="md:pr-12">
@@ -223,10 +223,10 @@
               </ul>
             </div>
             <div class="my-8">
-              <button type="button"
+              <!-- <button type="button"
                 class="inline-block px-6 py-2.5 bg-gray-200 text-gray-700 font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out">
                 {{ $t('more_button_text') }}
-              </button>
+              </button> -->
             </div>
           </div>
           <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
@@ -321,10 +321,10 @@
               </ul>
             </div>
             <div class="my-8">
-              <button type="button"
+              <!-- <button type="button"
                 class="inline-block px-6 py-2.5 bg-gray-200 text-gray-700 font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out">
                 {{ $t('more_button_text') }}
-              </button>
+              </button> -->
             </div>
           </div>
         </div>
@@ -438,10 +438,10 @@
               </ul>
             </div>
             <div class="my-8">
-              <button type="button"
+              <!-- <button type="button"
                 class="inline-block px-6 py-2.5 bg-gray-200 text-gray-700 font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out">
                 {{ $t('more_button_text') }}
-              </button>
+              </button> -->
             </div>
           </div>
           <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
@@ -464,7 +464,7 @@
       <div class="container mx-auto px-4">
         <div class="items-center flex flex-wrap justify-center">
           <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
-            <img alt="..." class="max-w-full rounded-lg shadow-lg" src="/images/rektor.jpg" />
+            <img alt="..." class="max-w-full rounded-lg shadow-lg" src="/images/consulting.jpg" />
           </div>
           <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
             <div class="md:pr-12">
@@ -473,6 +473,10 @@
                 <font-awesome-icon icon="fa-solid fa-rocket" class="w-6 h-6" />
               </div>
               <h3 class="text-3xl font-semibold">{{ $t('jdu_consulting_title') }}</h3>
+              <p class="mt-4 text-lg leading-relaxed text-gray-600">
+                <span class="font-bold">{{ $t('jdu_consulting_aim') }}</span>
+                {{ $t('jdu_consulting_aim_description') }}
+              </p>
               <ul class="list-none mt-6">
                 <li class="py-2">
                   <div class="flex items-center">
@@ -651,10 +655,10 @@
 
             </div>
             <div class="my-8">
-              <button type="button"
+              <!-- <button type="button"
                 class="inline-block px-6 py-2.5 bg-gray-200 text-gray-700 font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out">
                 {{ $t('more_button_text') }}
-              </button>
+              </button> -->
             </div>
           </div>
         </div>

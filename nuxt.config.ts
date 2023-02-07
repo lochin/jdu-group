@@ -70,6 +70,8 @@ export default defineNuxtConfig({
           jdu_systems_advantage_three: "Yaponcha ishlash usuli va ish sifati",
 
           jdu_consulting_title: "JDU Consulting",
+          jdu_consulting_aim: "Maqsadi:",
+          jdu_consulting_aim_description: "O`zbekiston bozoriga kirib kelishni maqsad qilgan Yaponiya kompaniyalarga yordam berish.",
           jdu_consulting_main: "Bosh maslahatchi",
           jdu_consulting_services_title: "Xizmat turlari:",
           jdu_consulting_service_one: "Market research",
@@ -129,7 +131,7 @@ export default defineNuxtConfig({
           jdu_advantage_one: "ウズベキスタンにいながら日本の大学の卒業資格を取得できる",
           jdu_advantage_two: "日本で仕事をするチャンスを得られる",
           jdu_advantage_three: "在学中に実務経験を積み、学費の返済に充てられる",
-          jdu_advantage_four: "一度に3つの学位を取得できる",
+          jdu_advantage_four: "ウズベキスタン国で認められた正規の私立大学",
           
           jdu_academy_title: "JDUアカデミー",
           jdu_academy_aim: "目的：",
@@ -159,6 +161,8 @@ export default defineNuxtConfig({
           jdu_systems_advantage_three: "日本の働き方と仕事の質の高さ",
           
           jdu_consulting_title: "JDUコンサルティング",
+          jdu_consulting_aim: "目的：",
+          jdu_consulting_aim_description: "日本企業向けにウズベキスタン市場参入をコンサルティングする",
           jdu_consulting_main: "チーフ・コンサルタント",
           jdu_consulting_services_title: "サービスの種類:",
           jdu_consulting_service_one: "市場調査",

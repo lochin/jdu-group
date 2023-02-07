@@ -180,7 +180,7 @@ export default defineNuxtConfig({
           jdu_consulting_chief_work_three: "デジタルナレッジ株式会社国際開発　部門長",
           jdu_consulting_chief_work_four: "ジャパン・デジタル・ユニバーシティ取締役",
           
-          management_title: "役員役員",
+          management_title: "役員",
           management_head_one_name: "Hiroaki Haga",
           management_head_one_occupation: '創業者は株式会社デジタル・ナレッジの社長',
           management_head_two_name: "Mamajonov Ravshanbek",

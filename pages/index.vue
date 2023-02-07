@@ -445,7 +445,7 @@
             </div>
           </div>
           <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
-            <img alt="..." class="max-w-full rounded-lg shadow-lg" src="/images/young-company.jpg" />
+            <img alt="..." class="max-w-full rounded-lg shadow-lg" src="/images/jdu_systems.jpg" />
           </div>
         </div>
       </div>

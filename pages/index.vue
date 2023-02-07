@@ -179,7 +179,7 @@
             <div class="md:pr-12">
               <div
                 class="hidden text-center md:inline-flex items-center justify-center w-20 h-20 mb-6 shadow-lg rounded-full bg-pink-300">
-                <img alt="..." class="max-w-full rounded-full shadow-lg" src="/images/academy.jpg" />
+                <img alt="..." class="max-w-full rounded-full shadow-lg" src="/images/jdu_academy.jpg" />
               </div>
               <h3 class="text-3xl font-semibold">{{ $t('jdu_academy_title') }}</h3>
               <p class="mt-4 text-lg leading-relaxed text-gray-600">
@@ -230,7 +230,7 @@
             </div>
           </div>
           <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
-            <img alt="..." class="max-w-full rounded-lg shadow-lg" src="/images/academy-cover.jpg" />
+            <img alt="..." class="max-w-full rounded-lg shadow-lg" src="/images/academy.jpg" />
           </div>
         </div>
       </div>
@@ -532,7 +532,7 @@
                 </li>
               </ul>
               <p class="mt-4 text-lg leading-relaxed text-gray-600 font-bold">
-                Bosh maslahatchi: Mamajonov Ravshanbek
+                {{ $t('jdu_consulting_main') }}: Mamajonov Ravshanbek
               </p>
 
               <p class="mt-6 text-lg leading-relaxed text-gray-600">
@@ -676,7 +676,7 @@
               <img alt="..." src="/images/ceo.jpg" class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px" />
               <div class="pt-6 text-center">
-                <h5 class="text-xl font-bold">{{ $t('management_head_one_name')}}</h5>
+                <h5 class="text-xl font-bold">{{ $t('management_head_one_name') }}</h5>
                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
                   {{ $t('management_head_one_occupation') }}
                 </p>
@@ -698,9 +698,9 @@
               <img alt="..." src="/images/rector_icon.jpg" class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px" />
               <div class="pt-6 text-center">
-                <h5 class="text-xl font-bold">{{ $t('management_head_two_name')}}</h5>
+                <h5 class="text-xl font-bold">{{ $t('management_head_two_name') }}</h5>
                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                  {{ $t('management_head_two_occupation')}}
+                  {{ $t('management_head_two_occupation') }}
                 </p>
                 <div class="mt-6">
                   <button class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
@@ -762,9 +762,9 @@
           <div class="w-full md:w-6/12 lg:w-6/12 lg:mb-0 mb-12 px-4">
             <div class="px-6">
               <div class="mapouter">
-                <div class="gmap_canvas">
-                  <iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-                    src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=japan digital university&amp;t=p&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                <div class="gmap_canvas"><iframe width="600" height="400" id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=tashkent%20fonon%20chilonzor&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                 </div>
               </div>
             </div>

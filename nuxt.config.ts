@@ -70,6 +70,7 @@ export default defineNuxtConfig({
           jdu_systems_advantage_three: "Yaponcha ishlash usuli va ish sifati",
 
           jdu_consulting_title: "JDU Consulting",
+          jdu_consulting_main: "Bosh maslahatchi",
           jdu_consulting_services_title: "Xizmat turlari:",
           jdu_consulting_service_one: "Market research",
           jdu_consulting_service_two: "Marketing",
@@ -98,7 +99,7 @@ export default defineNuxtConfig({
           contact_full_address: "Toshkent shahar, Chilonzor tumani, Kichik Halqa Yo'li ko'chasi, 50.",
           contact_phone: "Telefon",
           contact_email: "Elektron pochta",
-
+          
           footer_title: "Biz bilan aloqa",
           footer_description: "Bizni ushbu ijtimoiy tarmoqlardan topishingiz mumkin.",
           footer_more_info: "Ko'proq ma'lumot",
@@ -158,6 +159,7 @@ export default defineNuxtConfig({
           jdu_systems_advantage_three: "日本の働き方と仕事の質の高さ",
           
           jdu_consulting_title: "JDUコンサルティング",
+          jdu_consulting_main: "チーフ・コンサルタント",
           jdu_consulting_services_title: "サービスの種類:",
           jdu_consulting_service_one: "市場調査",
           jdu_consulting_service_two: "マーケティング",

@@ -230,7 +230,7 @@
             </div>
           </div>
           <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
-            <img alt="..." class="max-w-full rounded-lg shadow-lg" src="/images/academy.jpg" />
+            <img alt="..." class="max-w-full rounded-lg shadow-lg" src="/images/academy2.jpg" />
           </div>
         </div>
       </div>
@@ -684,7 +684,7 @@
                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
                   {{ $t('management_head_one_occupation') }}
                 </p>
-                <div class="mt-6">
+                <!-- <div class="mt-6">
                   <button class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                     type="button">
                     <font-awesome-icon icon="fa-brands fa-twitter" />
@@ -693,7 +693,7 @@
                     type="button">
                     <font-awesome-icon icon="fa-brands fa-facebook" />
                   </button>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -706,7 +706,7 @@
                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
                   {{ $t('management_head_two_occupation') }}
                 </p>
-                <div class="mt-6">
+                <!-- <div class="mt-6">
                   <button class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                     type="button">
                     <font-awesome-icon icon="fa-brands fa-google" />
@@ -715,7 +715,7 @@
                     type="button">
                     <font-awesome-icon icon="fa-brands fa-facebook" />
                   </button>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>

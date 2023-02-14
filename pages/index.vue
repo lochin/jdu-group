@@ -75,6 +75,7 @@
       <div class="container mx-auto px-4">
         <div class="items-center flex flex-wrap">
           <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+            <img src="/images/jdu_kids_logo.jpg" style="visibility: hidden; display: none;">
             <img alt="..." class="max-w-full rounded-lg shadow-lg" src="/images/university.jpg" />
           </div>
           <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
@@ -839,4 +840,5 @@ library.add(faDribbble);
   width: 600px !important;
   height: 400px !important;
 }
+
 </style>

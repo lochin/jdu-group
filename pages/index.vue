@@ -819,14 +819,6 @@ library.add(faInstagram);
 library.add(faTwitter);
 library.add(faDribbble);
 
-useServerSeoMeta({
-  title: 'JDU Group Services',
-  ogTitle: 'JDU Group Services',
-  description: 'JDU UNIVERSITY, JDU ACADEMY, JDU KIDS, JDU SYSTEMS,JDU CONSULTING.',
-  ogDescription: 'JDU UNIVERSITY, JDU ACADEMY, JDU KIDS, JDU SYSTEMS,JDU CONSULTING.',
-  ogImage: 'images/cover.jpg',
-  twitterCard: 'JDU Group',
-})
 
 </script>
 

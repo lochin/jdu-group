@@ -120,15 +120,6 @@ function toggleLang() {
   uzLang.value = !uzLang.value;
 }
 
-
-// useServerSeoMeta({
-//   title: 'JDU Group Services',
-//   ogTitle: 'JDU Group Services',
-//   description: 'JDU UNIVERSITY, JDU ACADEMY, JDU KIDS, JDU SYSTEMS,JDU CONSULTING.',
-//   ogDescription: 'JDU UNIVERSITY, JDU ACADEMY, JDU KIDS, JDU SYSTEMS,JDU CONSULTING.',
-//   ogImage: 'images/cover.jpg',
-//   twitterCard: 'JDU Group',
-// })
 const googleAnalyticsCode = `
 window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -142,8 +133,10 @@ useHead({
   meta: [
     { name: 'description', content: 'JDU UNIVERSITY, JDU ACADEMY, JDU KIDS, JDU SYSTEMS,JDU CONSULTING.' },
     { property: 'og:title', content: 'JDU Group Services' },
+    { property: 'og:url', content: 'https://www.jdugroup.uz' },
+    { property: 'og:type', content: 'website' },
     { property: 'og:description', content: 'JDU UNIVERSITY, JDU ACADEMY, JDU KIDS, JDU SYSTEMS,JDU CONSULTING.' },
-    { property: 'og:image', content: 'images/cover.jpg' },
+    { property: 'og:image', content: 'https://jdugroup.uz/images/cover.jpg' },
   ],
   script: [
     {
@@ -151,6 +144,12 @@ useHead({
       src: 'https://www.googletagmanager.com/gtag/js?id=G-JTB7495V5V',
     },
     { children: googleAnalyticsCode },
+  ],
+  link: [
+  {
+      rel: 'icon',
+      href: 'https://jdugroup.uz/images/jdu_icon.ico'
+    },
   ]
 })
 

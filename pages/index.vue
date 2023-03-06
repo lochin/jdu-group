@@ -766,7 +766,7 @@
           <div class="w-full md:w-6/12 lg:w-6/12 lg:mb-0 mb-12 px-4">
             <div class="px-6">
               <div class="mapouter">
-                <div class="gmap_canvas"><iframe class="w-full h-full" id="gmap_canvas"
+                <div class="gmap_canvas"><iframe class="w-full" id="gmap_canvas"
                     src="https://maps.google.com/maps?q=tashkent%20fonon%20chilonzor&t=&z=15&ie=UTF8&iwloc=&output=embed"
                     frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                 </div>
@@ -826,20 +826,12 @@ library.add(faDribbble);
 .mapouter {
   position: relative;
   text-align: right;
-  width: 600px;
-  height: 400px;
 }
 
 .gmap_canvas {
   overflow: hidden;
   background: none !important;
-  width: 600px;
-  height: 400px;
-}
-
-.gmap_iframe {
-  width: 600px !important;
-  height: 400px !important;
+  height: 20rem !important;
 }
 
 </style>
